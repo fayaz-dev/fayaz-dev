@@ -40,6 +40,11 @@ Here are some ideas to get you started:
 ![VSCode Editor](https://img.shields.io/badge/VS%E2%80%A2Code-Editor-blue?style=for-the-badge&logo=visualstudiocode "VSCode Editor")
 ![Vim Editor](https://img.shields.io/badge/Vim-Editor-blue?style=for-the-badge&logo=vim "Vim Editor")
 
+![Screenflow](https://img.shields.io/badge/Screenflow-Tool-blue?style=for-the-badge&logo=Airplayvideo "Screenflow")
+![Affinity Photo](https://img.shields.io/badge/Affinity%20Photo-Tool-blue?style=for-the-badge&logo=Affinityphoto "Affinity Photo")
+![Affinity Designer](https://img.shields.io/badge/Affinity%20Designer-Tool-blue?style=for-the-badge&logo=AffinityDesigner "Affinity Photo")
+![Audacity](https://img.shields.io/badge/Audacity-Tool-blue?style=for-the-badge&logo=Audacity "Audacity")
+
 ![Mac OS](https://img.shields.io/badge/Mac-OS-blue?style=for-the-badge&logo=apple "Mac OS")
 ![Ubuntu OS](https://img.shields.io/badge/Ubuntu-OS-blue?style=for-the-badge&logo=ubuntu "Ubuntu OS")
 

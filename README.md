@@ -23,9 +23,22 @@ Here are some ideas to get you started:
 
 - My own developer website [fayaz.dev](https://fayaz.dev).
 
+## :tophat: My Stacks …
+
+![WordPress CMS](https://img.shields.io/badge/WordPress-CMS-blue?style=for-the-badge&logo=wordpress "WordPress CMS")
+![JavaScript CODE](https://img.shields.io/badge/JavaScript-CODE-blue?style=for-the-badge&logo=javascript "JavaScript CODE")
+![PHP CODE](https://img.shields.io/badge/PHP-CODE-blue?style=for-the-badge&logo=php "PHP CODE")
+![CSS CODE](https://img.shields.io/badge/CSS-CODE-blue?style=for-the-badge&logo=css3 "CSS CODE")
+![HTML CODE](https://img.shields.io/badge/HTML-CODE-blue?style=for-the-badge&logo=html5 "HTML CODE")
+![Node.js Runtime Environment](https://img.shields.io/badge/Node.js-ENV-blue?style=for-the-badge&logo=node.js "Node.js Runtime Environment")
+
+## :mortar_board: Education …
+
+- Bachelor of Science (BSc) in Computer Science & Engineering.
+
 ## :crossed_fingers: I’m currently learning …
 
-* React.js
+- React.js
 
 ## :joy: Fun fact: …
 
@@ -33,7 +46,7 @@ Here are some ideas to get you started:
 
 * I occationally post **Develper Rhymes** on Twitter with the hash tag [#Dev_Rhyme](https://twitter.com/search?q=%23Dev_Rhyme).
 
-## :speech_balloon: How to reach me: …
+## :mailbox_with_mail: How to reach me: …
 
 * My Developer Twitter account: [@FayazDev](https://twitter.com/FayazDev)
 

@@ -46,13 +46,13 @@ Here are some ideas to get you started:
 - ![Python CODE](https://img.shields.io/badge/Python-code-blue?style=for-the-badge&logo=python "Python CODE")
 - ![Machine learning](https://img.shields.io/badge/🧠%20AI-ML-blue?style=for-the-badge "Machine learning")
 
-## :joy: Fun fact: …
+## :joy: Fun fact:
 
 * If I like a GitHub repo & it's within my dev stack, I usually fork it, even if I have no plan on contributing.
 
 * I occationally post **Develper Rhymes** on Twitter with the hash tag [#Dev_Rhyme](https://twitter.com/search?q=%23Dev_Rhyme).
 
-## :mailbox_with_mail: How to reach me: …
+## :mailbox_with_mail: How to reach me:
 
 * My Developer Twitter account: [@FayazDev](https://twitter.com/FayazDev)
 

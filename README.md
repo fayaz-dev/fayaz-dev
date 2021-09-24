@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-## :hammer_and_wrench: I’m currently working on …
+## :hammer_and_wrench: I’m currently working on:
 
 - Developing an interesting WordPress Plugin.
 
@@ -23,7 +23,7 @@ Here are some ideas to get you started:
 
 - My own developer website [fayaz.dev](https://fayaz.dev).
 
-## :tophat: My Stacks …
+## :tophat: My Stacks:
 
 ![WordPress CMS](https://img.shields.io/badge/WordPress-CMS-blue?style=for-the-badge&logo=wordpress "WordPress CMS")
 ![JavaScript CODE](https://img.shields.io/badge/JavaScript-CODE-blue?style=for-the-badge&logo=javascript "JavaScript CODE")
@@ -32,13 +32,15 @@ Here are some ideas to get you started:
 ![HTML CODE](https://img.shields.io/badge/HTML-CODE-blue?style=for-the-badge&logo=html5 "HTML CODE")
 ![Node.js Runtime Environment](https://img.shields.io/badge/Node.js-ENV-blue?style=for-the-badge&logo=node.js "Node.js Runtime Environment")
 
-## :mortar_board: Education …
+## :mortar_board: Education:
 
 - Bachelor of Science (BSc) in Computer Science & Engineering.
 
-## :crossed_fingers: I’m currently learning …
+## :crossed_fingers: I’m currently learning:
 
-- React.js
+- ![React JS](https://img.shields.io/badge/React-JS-blue?style=for-the-badge&logo=react "React JS")
+- ![Python CODE](https://img.shields.io/badge/Python-code-blue?style=for-the-badge&logo=python "Python CODE")
+- ![Machine learning](https://img.shields.io/badge/🧠%20AI-ML-blue?style=for-the-badge "Machine learning")
 
 ## :joy: Fun fact: …
 

@@ -83,7 +83,7 @@ PM me in my Developer Twitter account: <a href="https://twitter.com/FayazDev"><i
 
 PM me in my all purpose Twitter account: <a href="https://twitter.com/fayazmiraz"><img width="20" src="media/twitter.svg"/> @fayazmiraz</a>
 
-![](https://img.shields.io/badge/me-@fayaz.dev-blue?style=for-the-badge&logo=gmail)
+![Email me](https://img.shields.io/badge/email-me%20@%20fayaz.dev-blue?style=for-the-badge&logo=gmail "Email me")
 
 
 ---

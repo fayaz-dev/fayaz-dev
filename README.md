@@ -79,9 +79,9 @@ Here are some ideas to get you started:
 
 ## :mailbox_with_mail: Contact me:
 
-PM me in my Developer Twitter account: <a href="https://twitter.com/FayazDev"><img src="media/twitter.svg"/> @FayazDev</a>
+PM me in my Developer Twitter account: <a href="https://twitter.com/FayazDev"><img width="20" src="media/twitter.svg"/> @FayazDev</a>
 
-PM me in my all purpose Twitter account: <a href="https://twitter.com/fayazmiraz"><img src="media/twitter.svg"/> @fayazmiraz</a>
+PM me in my all purpose Twitter account: <a href="https://twitter.com/fayazmiraz"><img width="20" src="media/twitter.svg"/> @fayazmiraz</a>
 
 ![](https://img.shields.io/badge/me-@fayaz.dev-blue?style=for-the-badge&logo=gmail)
 

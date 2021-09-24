@@ -21,7 +21,7 @@ Here are some ideas to get you started:
 
 - Developing a JavaScript library for data filtering.
 
-- My own developer website [fayaz.dev](https://fayaz.dev).
+- Developing my own [fayaz.dev](https://fayaz.dev) website (coming soon).
 
 ## :tophat: My Stack:
 
@@ -63,7 +63,7 @@ Here are some ideas to get you started:
 
 > Bachelor of Science (BSc) in Computer Science & Engineering.
 
-## Other Dev Contributions:
+## :gift: Other Contributions:
 
 ![Fayaz on StackExchange](https://stackexchange.com/users/flair/456021.png "Fayaz on StackExchange")
 
@@ -77,8 +77,21 @@ Here are some ideas to get you started:
 
 * I occationally post **Develper Rhymes** on Twitter with the hash tag [#Dev_Rhyme](https://twitter.com/search?q=%23Dev_Rhyme).
 
-## :mailbox_with_mail: How to reach me:
+## :mailbox_with_mail: Contact me:
 
-* My Developer Twitter account: [@FayazDev](https://twitter.com/FayazDev)
+PM me in my Developer Twitter account: <a href="https://twitter.com/FayazDev"><img src="media/twitter.svg"/> @FayazDev</a>
 
-* My all purpose Twitter account: [@fayazmiraz](https://twitter.com/fayazmiraz)
+PM me in my all purpose Twitter account: <a href="https://twitter.com/fayazmiraz"><img src="media/twitter.svg"/> @fayazmiraz</a>
+
+![](https://img.shields.io/badge/me-@fayaz.dev-blue?style=for-the-badge&logo=gmail)
+
+
+---
+
+
+
+## :clap: Credits
+
+1. [shields.io](https://shields.io/) is used for tech logo images.
+
+2. Icons can be found at https://simpleicons.org/

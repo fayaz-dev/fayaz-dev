@@ -56,7 +56,9 @@ Here are some ideas to get you started:
 
 ## :mortar_board: Education:
 
-- ![CSE](https://img.shields.io/badge/CSE-BSc-blue?style=for-the-badge&logo=AirPlayVideo "CSE") Bachelor of Science (BSc) in Computer Science & Engineering.
+![CSE](https://img.shields.io/badge/CSE-BSc-blue?style=for-the-badge&logo=AirPlayVideo "CSE")
+
+> Bachelor of Science (BSc) in Computer Science & Engineering.
 
 ## Other Dev Contributions:
 

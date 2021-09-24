@@ -26,12 +26,15 @@ Here are some ideas to get you started:
 ## :tophat: My Stack:
 
 ![WordPress CMS](https://img.shields.io/badge/WordPress-CMS-blue?style=for-the-badge&logo=wordpress "WordPress CMS")
+
 ![JavaScript CODE](https://img.shields.io/badge/JavaScript-CODE-blue?style=for-the-badge&logo=javascript "JavaScript CODE")
 ![PHP CODE](https://img.shields.io/badge/PHP-CODE-blue?style=for-the-badge&logo=php "PHP CODE")
 ![CSS CODE](https://img.shields.io/badge/CSS-CODE-blue?style=for-the-badge&logo=css3 "CSS CODE")
 ![HTML CODE](https://img.shields.io/badge/HTML-CODE-blue?style=for-the-badge&logo=html5 "HTML CODE")
+
 ![Node.js Runtime Environment](https://img.shields.io/badge/Node.js-ENV-blue?style=for-the-badge&logo=node.js "Node.js Runtime Environment")
 ![Shell CLI](https://img.shields.io/badge/🖥%20Shell-CLI-blue?style=for-the-badge "Shell CLI")
+
 ![Mac OS](https://img.shields.io/badge/Mac-OS-blue?style=for-the-badge&logo=apple "Mac OS")
 ![Ubuntu OS](https://img.shields.io/badge/Ubuntu-OS-blue?style=for-the-badge&logo=ubuntu "Ubuntu OS")
 

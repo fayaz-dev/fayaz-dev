@@ -92,6 +92,8 @@ PM me in my all purpose Twitter account: <a href="https://twitter.com/fayazmiraz
 
 ## :clap: Credits
 
-1. [shields.io](https://shields.io/) is used for tech logo images.
+1. Used [shields.io](https://shields.io/) for tech logo images.
 
-2. Icons can be found at https://simpleicons.org/
+2. [shields.io](https://shields.io/) uses [Simple Icons](https://simpleicons.org/).
+
+3. Used Twitter icon from [Super Tiny Icons](https://github.com/edent/SuperTinyIcons).

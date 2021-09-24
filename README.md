@@ -29,11 +29,16 @@ Here are some ideas to get you started:
 
 ![JavaScript CODE](https://img.shields.io/badge/JavaScript-CODE-blue?style=for-the-badge&logo=javascript "JavaScript CODE")
 ![PHP CODE](https://img.shields.io/badge/PHP-CODE-blue?style=for-the-badge&logo=php "PHP CODE")
+![Java CODE](https://img.shields.io/badge/Java-CODE-blue?style=for-the-badge&logo=java "Java CODE")
+![C CODE](https://img.shields.io/badge/.-CODE-blue?style=for-the-badge&logo=c "C CODE")
 ![CSS CODE](https://img.shields.io/badge/CSS-CODE-blue?style=for-the-badge&logo=css3 "CSS CODE")
 ![HTML CODE](https://img.shields.io/badge/HTML-CODE-blue?style=for-the-badge&logo=html5 "HTML CODE")
 
 ![Node.js Runtime Environment](https://img.shields.io/badge/Node.js-ENV-blue?style=for-the-badge&logo=node.js "Node.js Runtime Environment")
 ![Shell CLI](https://img.shields.io/badge/🖥%20Shell-CLI-blue?style=for-the-badge "Shell CLI")
+
+![VSCode Editor](https://img.shields.io/badge/VS%E2%80%A2Code-Editor-blue?style=for-the-badge&logo=visualstudiocode "VSCode Editor")
+![Vim Editor](https://img.shields.io/badge/Vim-Editor-blue?style=for-the-badge&logo=vim "Vim Editor")
 
 ![Mac OS](https://img.shields.io/badge/Mac-OS-blue?style=for-the-badge&logo=apple "Mac OS")
 ![Ubuntu OS](https://img.shields.io/badge/Ubuntu-OS-blue?style=for-the-badge&logo=ubuntu "Ubuntu OS")

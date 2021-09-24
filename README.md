@@ -50,7 +50,7 @@ Here are some ideas to get you started:
 
 - [Answered 150+ questions](https://stackexchange.com/users/456021/fayaz) on the StackExchange Network.
 
-- 64K+ answer views on [Quora](https://www.quora.com/profile/Fayaz-Ahmed-10/).
+- [64K+ answer views](https://www.quora.com/profile/Fayaz-Ahmed-10/) on Quora.
 
 ## :joy: Fun fact:
 

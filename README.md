@@ -35,7 +35,6 @@ Here are some ideas to get you started:
 ![Mac OS](https://img.shields.io/badge/Mac-OS-blue?style=for-the-badge&logo=apple "Mac OS")
 ![Ubuntu OS](https://img.shields.io/badge/Ubuntu-OS-blue?style=for-the-badge&logo=ubuntu "Ubuntu OS")
 
-
 ## :mortar_board: Education:
 
 - Bachelor of Science (BSc) in Computer Science & Engineering.
@@ -45,6 +44,13 @@ Here are some ideas to get you started:
 - ![React JS](https://img.shields.io/badge/React-JS-blue?style=for-the-badge&logo=react "React JS")
 - ![Python CODE](https://img.shields.io/badge/Python-code-blue?style=for-the-badge&logo=python "Python CODE")
 - ![Machine learning](https://img.shields.io/badge/🧠%20AI-ML-blue?style=for-the-badge "Machine learning")
+
+## Other Dev Contributions:
+
+- [Answered 150+ questions](https://stackexchange.com/users/456021/fayaz) on the StackExchange Network.
+  ![Fayaz on StackExchange](https://stackexchange.com/users/flair/456021.png "Fayaz on StackExchange")
+
+- 64K+ answer views in [Quora](https://www.quora.com/profile/Fayaz-Ahmed-10/).
 
 ## :joy: Fun fact:
 

@@ -45,14 +45,17 @@ Here are some ideas to get you started:
 
 ## :crossed_fingers: Currently learning:
 
-- ![React JS](https://img.shields.io/badge/React-JS-blue?style=for-the-badge&logo=react "React JS")
-- ![Python CODE](https://img.shields.io/badge/Python-code-blue?style=for-the-badge&logo=python "Python CODE")
-- ![Arabic Language](https://img.shields.io/badge/%D8%B9%20Arabic-Language-blue?style=for-the-badge "Arabic Language")
+![React JS](https://img.shields.io/badge/React-JS-blue?style=for-the-badge&logo=react "React JS")
+
+![Python CODE](https://img.shields.io/badge/Python-code-blue?style=for-the-badge&logo=python "Python CODE")
+
+![Arabic Language](https://img.shields.io/badge/%D8%B9%20Arabic-Language-blue?style=for-the-badge "Arabic Language")
 
 ## :pray: Learning wish list:
 
-- ![Blockchain Development](https://img.shields.io/badge/Blockchain-code-blue?style=for-the-badge&logo=ethereum "Blockchain Development")
-- ![Machine learning](https://img.shields.io/badge/%F0%9F%92%A1-ML-blue?style=for-the-badge&logo=AdobeIllustrator "Machine learning")
+![Blockchain Development](https://img.shields.io/badge/Blockchain-code-blue?style=for-the-badge&logo=ethereum "Blockchain Development")
+
+![Machine learning](https://img.shields.io/badge/%F0%9F%92%A1-ML-blue?style=for-the-badge&logo=AdobeIllustrator "Machine learning")
 
 ## :mortar_board: Education:
 

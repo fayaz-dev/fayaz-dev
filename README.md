@@ -46,11 +46,11 @@ Here are some ideas to get you started:
 - ![Machine learning](https://img.shields.io/badge/🧠%20AI-ML-blue?style=for-the-badge "Machine learning")
 
 ## Other Dev Contributions:
+![Fayaz on StackExchange](https://stackexchange.com/users/flair/456021.png "Fayaz on StackExchange")
 
 - [Answered 150+ questions](https://stackexchange.com/users/456021/fayaz) on the StackExchange Network.
-  ![Fayaz on StackExchange](https://stackexchange.com/users/flair/456021.png "Fayaz on StackExchange")
 
-- 64K+ answer views in [Quora](https://www.quora.com/profile/Fayaz-Ahmed-10/).
+- 64K+ answer views on [Quora](https://www.quora.com/profile/Fayaz-Ahmed-10/).
 
 ## :joy: Fun fact:
 

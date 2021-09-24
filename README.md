@@ -52,11 +52,11 @@ Here are some ideas to get you started:
 ## :pray: Learning wish list:
 
 - ![Blockchain Development](https://img.shields.io/badge/Blockchain-code-blue?style=for-the-badge&logo=ethereum "Blockchain Development")
-- ![Machine learning](https://img.shields.io/badge/🧠%20AI-ML-blue?style=for-the-badge "Machine learning")
+- ![Machine learning](https://img.shields.io/badge/%F0%9F%92%A1-ML-blue?style=for-the-badge&logo=AdobeIllustrator "Machine learning")
 
 ## :mortar_board: Education:
 
-- Bachelor of Science (BSc) in Computer Science & Engineering.
+- ![CSE](https://img.shields.io/badge/CSE-BSc-blue?style=for-the-badge&logo=AirPlayVideo "CSE") Bachelor of Science (BSc) in Computer Science & Engineering.
 
 ## Other Dev Contributions:
 

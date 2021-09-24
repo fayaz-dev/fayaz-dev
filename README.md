@@ -85,11 +85,11 @@ Here are some ideas to get you started:
 
 ## :mailbox_with_mail: Contact me:
 
-PM me in my Developer Twitter account: <a href="https://twitter.com/FayazDev"><img width="20" src="media/twitter.svg"/> @FayazDev</a>
-
-PM me in my all purpose Twitter account: <a href="https://twitter.com/fayazmiraz"><img width="20" src="media/twitter.svg"/> @fayazmiraz</a>
-
 ![Email me](https://img.shields.io/badge/email-me%20@%20fayaz.dev-blue?style=for-the-badge&logo=gmail "Email me")
+
+<a href="https://twitter.com/FayazDev"><img width="20" src="media/twitter.svg"/> @FayazDev</a>
+
+<a href="https://twitter.com/fayazmiraz"><img width="20" src="media/twitter.svg"/> @fayazmiraz</a>
 
 
 ---

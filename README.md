@@ -47,6 +47,7 @@ Here are some ideas to get you started:
 
 ![Mac OS](https://img.shields.io/badge/Mac-OS-blue?style=for-the-badge&logo=apple "Mac OS")
 ![Ubuntu OS](https://img.shields.io/badge/Ubuntu-OS-blue?style=for-the-badge&logo=ubuntu "Ubuntu OS")
+![Android](https://img.shields.io/badge/Android-OS-blue?style=for-the-badge&logo=android "Android OS")
 
 ## :crossed_fingers: Currently learning:
 

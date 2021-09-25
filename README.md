@@ -91,15 +91,18 @@ Here are some ideas to get you started:
 
 <a href="https://twitter.com/fayazmiraz"><img width="20" src="media/twitter.svg"/> @fayazmiraz</a>
 
-
 ---
-
-
 
 ## :clap: Credits
 
-1. Used [shields.io](https://shields.io/) for tech logo images.
+Tools I used to create this [README.md](https://github.com/fayazmiraz/fayazmiraz/blob/main/README.md?plain=1):
 
-2. [shields.io](https://shields.io/) uses [Simple Icons](https://simpleicons.org/).
+1. [shields.io](https://shields.io/) for tech logo images.
 
-3. Used Twitter icon from [Super Tiny Icons](https://github.com/edent/SuperTinyIcons).
+2. [shields.io](https://shields.io/) internally uses [Simple Icons](https://simpleicons.org/) for logos, so to find the appropriate logo name, search there.
+
+3. [Super Tiny Icons](https://github.com/edent/SuperTinyIcons) for Twitter icon.
+
+4. [Screenflow](https://www.telestream.net/screenflow/overview.htm) to create the banner gif.
+
+5. My own fork of [MarkText](https://github.com/fayazmiraz/marktext/tree/feature-header-color) to edit markdown.

@@ -103,4 +103,4 @@ Tools I used to create this [README.md](https://github.com/fayazmiraz/fayazmiraz
 
 4. [Screenflow](https://www.telestream.net/screenflow/overview.htm) to create the banner gif.
 
-5. My own fork of [MarkText](https://github.com/fayazmiraz/marktext/tree/feature-header-color) to edit markdown.
+5. My own [fork of MarkText](https://github.com/fayazmiraz/marktext/) to edit markdown.

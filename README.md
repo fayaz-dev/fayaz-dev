@@ -67,7 +67,7 @@ Here are some ideas to get you started:
 
 > Bachelor of Science (BSc) in Computer Science & Engineering.
 
-## :gift: Other Contributions:
+## :gift: Dev Q&A Contributions:
 
 ![Fayaz on StackExchange](https://stackexchange.com/users/flair/456021.png "Fayaz on StackExchange")
 

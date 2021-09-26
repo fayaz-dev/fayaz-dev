@@ -55,8 +55,6 @@ Here are some ideas to get you started:
 
 ![Python CODE](https://img.shields.io/badge/Python-code-blue?style=for-the-badge&logo=python "Python CODE")
 
-![Arabic Language](https://img.shields.io/badge/%D8%B9%20Arabic-Language-blue?style=for-the-badge "Arabic Language")
-
 ## :pray: Learning wish list:
 
 ![Blockchain Development](https://img.shields.io/badge/Blockchain-code-blue?style=for-the-badge&logo=ethereum "Blockchain Development")

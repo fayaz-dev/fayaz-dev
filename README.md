@@ -67,11 +67,11 @@ Here are some ideas to get you started:
 
 > Bachelor of Science (BSc) in Computer Science & Engineering.
 
-## :gift: Dev Q&A Contributions:
+## :trophy: Dev Q&A Contributions:
 
 ![Fayaz on StackExchange](https://stackexchange.com/users/flair/456021.png "Fayaz on StackExchange")
 
-- [Answered 150+ questions](https://stackexchange.com/users/456021/fayaz) on the StackExchange Network.
+- [Answered 150+ questions](https://stackexchange.com/users/456021/fayaz) on the StackExchange Network, mostly on WordPress.
 
 - [64K+ answer views](https://www.quora.com/profile/Fayaz-Ahmed-10/) on Quora.
 

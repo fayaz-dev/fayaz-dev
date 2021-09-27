@@ -87,8 +87,6 @@ Here are some ideas to get you started:
 
 <a href="https://twitter.com/FayazDev"><img width="20" src="media/twitter.svg"/> @FayazDev</a>
 
-<a href="https://twitter.com/fayazmiraz"><img width="20" src="media/twitter.svg"/> @fayazmiraz</a>
-
 ---
 
 ## :clap: Credits

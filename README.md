@@ -51,19 +51,18 @@ Here are some ideas to get you started:
 
 ## :crossed_fingers: Currently learning:
 
-![React JS](https://img.shields.io/badge/React-JS-blue?style=for-the-badge&logo=react "React JS")
-
-![Python CODE](https://img.shields.io/badge/Python-code-blue?style=for-the-badge&logo=python "Python CODE")
+<a href="https://reactjs.org/">![React JS development](https://img.shields.io/badge/React-JS-blue?style=for-the-badge&logo=react "React JS development")</a>
+<a href="https://www.python.org/">![Python Programming](https://img.shields.io/badge/Python-code-blue?style=for-the-badge&logo=python "Python Programming")</a>
 
 ## :pray: Learning wish list:
 
-![Blockchain Development](https://img.shields.io/badge/Blockchain-code-blue?style=for-the-badge&logo=ethereum "Blockchain Development")
-
-![Machine learning](https://img.shields.io/badge/%F0%9F%92%A1-ML-blue?style=for-the-badge&logo=AdobeIllustrator "Machine learning")
+<a href="https://www.ruby-lang.org/">![Ruby Programming](https://img.shields.io/badge/Ruby-code-blue?style=for-the-badge&logo=ruby "Ruby Programming")</a>
+<a href="https://ethereum.org/en/developers/docs/smart-contracts/">![Blockchain Smart Contract Development](https://img.shields.io/badge/Blockchain-code-blue?style=for-the-badge&logo=ethereum "Blockchain Smart Contract Development")</a>
+<a href="https://en.wikipedia.org/wiki/Machine_learning">![Machine learning](https://img.shields.io/badge/%F0%9F%92%A1-ML-blue?style=for-the-badge&logo=AdobeIllustrator "Machine learning")</a>
 
 ## :mortar_board: Education:
 
-![CSE](https://img.shields.io/badge/CSE-BSc-blue?style=for-the-badge&logo=AirPlayVideo "CSE")
+<a href="https://en.wikipedia.org/wiki/Computer_science_and_engineering">![CSE](https://img.shields.io/badge/CSE-BSc-blue?style=for-the-badge&logo=AirPlayVideo "CSE")</a>
 
 > Bachelor of Science (BSc) in Computer Science & Engineering.
 

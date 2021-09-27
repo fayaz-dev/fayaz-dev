@@ -83,9 +83,12 @@ Here are some ideas to get you started:
 
 ## :mailbox_with_mail: Contact me:
 
-![Email me](https://img.shields.io/badge/email-me%20@%20fayaz.dev-blue?style=for-the-badge&logo=gmail "Email me")
+<a href="https://twitter.com/FayazDev">![Twitter inbox me @FayazDev](https://img.shields.io/badge/Twitter-@FayazDev-blue?style=for-the-badge&logo=twitter "Twitter inbox me @FayazDev")</a>
+![Email me at mail%40fayaz.dev](https://img.shields.io/badge/email-mail%40fayaz.dev-ea4335?style=for-the-badge&logo=gmail "Email me")
 
-<a href="https://twitter.com/FayazDev"><img width="20" src="media/twitter.svg"/> @FayazDev</a>
+<!--<a href="https://twitter.com/FayazDev"><img width="20" src="media/twitter.svg"/> @FayazDev</a>-->
+
+
 
 ---
 
@@ -97,8 +100,8 @@ Tools I used to create this [README.md](https://github.com/fayazmiraz/fayazmiraz
 
 2. [shields.io](https://shields.io/) internally uses [Simple Icons](https://simpleicons.org/) for logos, so to find the appropriate logo name, search there.
 
-3. [Super Tiny Icons](https://github.com/edent/SuperTinyIcons) for Twitter icon.
+3. [Screenflow](https://www.telestream.net/screenflow/overview.htm) to create the banner gif.
 
-4. [Screenflow](https://www.telestream.net/screenflow/overview.htm) to create the banner gif.
+4. My own [fork of MarkText](https://github.com/fayazmiraz/marktext/) to edit markdown.
 
-5. My own [fork of MarkText](https://github.com/fayazmiraz/marktext/) to edit markdown.
+<!--[Super Tiny Icons](https://github.com/edent/SuperTinyIcons) for Twitter icon.-->

@@ -44,10 +44,12 @@ Here are some ideas to get you started:
 ![Ubuntu OS](https://img.shields.io/badge/Ubuntu-OS-e95420?style=for-the-badge&logo=ubuntu "Ubuntu OS")
 ![Android](https://img.shields.io/badge/Android-OS-47dc84?style=for-the-badge&logo=android "Android OS")
 
-## :crossed_fingers: Currently learning:
+## :crossed_fingers: Currently Learning & Reading :
 
 <a href="https://reactjs.org/">![React JS development](https://img.shields.io/badge/React-JS-5eb9d1?style=for-the-badge&logo=react "React JS development")</a>
 <a href="https://www.python.org/">![Python Programming](https://img.shields.io/badge/Python-code-3776ab?style=for-the-badge&logo=python "Python Programming")</a>
+
+- [ECMA Script Specification](https://262.ecma-international.org/) :yum:
 
 ## :pray: Learning wish list:
 
@@ -59,7 +61,7 @@ Here are some ideas to get you started:
 
 <a href="https://en.wikipedia.org/wiki/Computer_science_and_engineering">![CSE](https://img.shields.io/badge/CSE-BSc-blue?style=for-the-badge&logo=AirPlayVideo "CSE")</a>
 
-> Bachelor of Science (BSc) in Computer Science & Engineering.
+> Bachelor of Science (BSc) in Computer Science & Engineering: 2002-2006.
 
 ## :trophy: Dev Q&A Contributions:
 

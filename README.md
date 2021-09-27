@@ -26,39 +26,34 @@ Here are some ideas to get you started:
 ## :tophat: My Stack:
 
 ![WordPress CMS](https://img.shields.io/badge/WordPress-CMS-blue?style=for-the-badge&logo=wordpress "WordPress CMS")
-
-![JavaScript CODE](https://img.shields.io/badge/JavaScript-CODE-blue?style=for-the-badge&logo=javascript "JavaScript CODE")
-![PHP CODE](https://img.shields.io/badge/PHP-CODE-blue?style=for-the-badge&logo=php "PHP CODE")
+![JavaScript CODE](https://img.shields.io/badge/JavaScript-CODE-f7df1f?style=for-the-badge&logo=javascript "JavaScript CODE")
+![PHP CODE](https://img.shields.io/badge/PHP-CODE-777bb4?style=for-the-badge&logo=php "PHP CODE")
 ![Java CODE](https://img.shields.io/badge/Java-CODE-blue?style=for-the-badge&logo=java "Java CODE")
 ![C CODE](https://img.shields.io/badge/.-CODE-blue?style=for-the-badge&logo=c "C CODE")
 ![CSS CODE](https://img.shields.io/badge/CSS-CODE-blue?style=for-the-badge&logo=css3 "CSS CODE")
-![HTML CODE](https://img.shields.io/badge/HTML-CODE-blue?style=for-the-badge&logo=html5 "HTML CODE")
-
-![Node.js Runtime Environment](https://img.shields.io/badge/Node.js-ENV-blue?style=for-the-badge&logo=node.js "Node.js Runtime Environment")
-![Shell CLI](https://img.shields.io/badge/🖥%20Shell-CLI-blue?style=for-the-badge "Shell CLI")
-
+![HTML CODE](https://img.shields.io/badge/HTML-CODE-e34f27?style=for-the-badge&logo=html5 "HTML CODE")
+![Node.js Runtime Environment](https://img.shields.io/badge/Node.js-ENV-3b883b?style=for-the-badge&logo=node.js "Node.js Runtime Environment")
+![Shell CLI](https://img.shields.io/badge/%F0%9F%96%A5%20Shell-CLI-blue?style=for-the-badge "Shell CLI")
 ![VSCode Editor](https://img.shields.io/badge/VS%E2%80%A2Code-Editor-blue?style=for-the-badge&logo=visualstudiocode "VSCode Editor")
 ![Vim Editor](https://img.shields.io/badge/Vim-Editor-blue?style=for-the-badge&logo=vim "Vim Editor")
-
 ![Screenflow](https://img.shields.io/badge/Screenflow-Tool-blue?style=for-the-badge&logo=Airplayvideo "Screenflow")
-![Affinity Photo](https://img.shields.io/badge/Affinity%20Photo-Tool-blue?style=for-the-badge&logo=Affinityphoto "Affinity Photo")
+![Affinity Photo](https://img.shields.io/badge/Affinity%20Photo-Tool-7e4dd2?style=for-the-badge&logo=Affinityphoto "Affinity Photo")
 ![Affinity Designer](https://img.shields.io/badge/Affinity%20Designer-Tool-blue?style=for-the-badge&logo=AffinityDesigner "Affinity Photo")
 ![Audacity](https://img.shields.io/badge/Audacity-Tool-blue?style=for-the-badge&logo=Audacity "Audacity")
-
 ![Mac OS](https://img.shields.io/badge/Mac-OS-blue?style=for-the-badge&logo=apple "Mac OS")
-![Ubuntu OS](https://img.shields.io/badge/Ubuntu-OS-blue?style=for-the-badge&logo=ubuntu "Ubuntu OS")
-![Android](https://img.shields.io/badge/Android-OS-blue?style=for-the-badge&logo=android "Android OS")
+![Ubuntu OS](https://img.shields.io/badge/Ubuntu-OS-e95420?style=for-the-badge&logo=ubuntu "Ubuntu OS")
+![Android](https://img.shields.io/badge/Android-OS-47dc84?style=for-the-badge&logo=android "Android OS")
 
 ## :crossed_fingers: Currently learning:
 
-<a href="https://reactjs.org/">![React JS development](https://img.shields.io/badge/React-JS-blue?style=for-the-badge&logo=react "React JS development")</a>
-<a href="https://www.python.org/">![Python Programming](https://img.shields.io/badge/Python-code-blue?style=for-the-badge&logo=python "Python Programming")</a>
+<a href="https://reactjs.org/">![React JS development](https://img.shields.io/badge/React-JS-5eb9d1?style=for-the-badge&logo=react "React JS development")</a>
+<a href="https://www.python.org/">![Python Programming](https://img.shields.io/badge/Python-code-3776ab?style=for-the-badge&logo=python "Python Programming")</a>
 
 ## :pray: Learning wish list:
 
 <a href="https://www.ruby-lang.org/">![Ruby Programming](https://img.shields.io/badge/Ruby-code-blue?style=for-the-badge&logo=ruby "Ruby Programming")</a>
 <a href="https://ethereum.org/en/developers/docs/smart-contracts/">![Blockchain Smart Contract Development](https://img.shields.io/badge/Blockchain-code-blue?style=for-the-badge&logo=ethereum "Blockchain Smart Contract Development")</a>
-<a href="https://en.wikipedia.org/wiki/Machine_learning">![Machine learning](https://img.shields.io/badge/%F0%9F%92%A1-ML-blue?style=for-the-badge&logo=AdobeIllustrator "Machine learning")</a>
+<a href="https://en.wikipedia.org/wiki/Machine_learning">![Machine learning](https://img.shields.io/badge/%F0%9F%92%A1-ML-f89a03?style=for-the-badge&logo=AdobeIllustrator "Machine learning")</a>
 
 ## :mortar_board: Education:
 

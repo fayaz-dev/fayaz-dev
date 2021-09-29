@@ -54,8 +54,8 @@ Here are some ideas to get you started:
 ## :pray: Learning wish list:
 
 <a href="https://www.typescriptlang.org/">![TypeScript Programming](https://img.shields.io/badge/TypeScript-code-blue?style=for-the-badge&logo=typescript "TypeScript Programming")</a>
-<a href="https://www.ruby-lang.org/">![Ruby Programming](https://img.shields.io/badge/Ruby-code-blue?style=for-the-badge&logo=ruby "Ruby Programming")</a>
-<a href="https://ethereum.org/en/developers/docs/smart-contracts/">![Blockchain Smart Contract Development](https://img.shields.io/badge/Blockchain-code-blue?style=for-the-badge&logo=ethereum "Blockchain Smart Contract Development")</a>
+<a href="https://www.ruby-lang.org/">![Ruby Programming](https://img.shields.io/badge/Ruby-code-white?style=for-the-badge&logo=ruby "Ruby Programming")</a>
+<a href="https://soliditylang.org/">![Solidity Development](https://img.shields.io/badge/Solidity-code-white?style=for-the-badge&logo=solidity "Solidity Development")</a>
 <a href="https://en.wikipedia.org/wiki/Machine_learning">![Machine learning](https://img.shields.io/badge/%F0%9F%92%A1-ML-f89a03?style=for-the-badge&logo=AdobeIllustrator "Machine learning")</a>
 
 ## :mortar_board: Education:

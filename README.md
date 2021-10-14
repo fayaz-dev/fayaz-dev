@@ -30,6 +30,7 @@ Here are some ideas to get you started:
 ![PHP CODE](https://img.shields.io/badge/PHP-CODE-777bb4?style=for-the-badge&logo=php "PHP CODE")
 ![Java CODE](https://img.shields.io/badge/Java-CODE-blue?style=for-the-badge&logo=java "Java CODE")
 ![C CODE](https://img.shields.io/badge/.-CODE-blue?style=for-the-badge&logo=c "C CODE")
+![R CODE](https://img.shields.io/badge/R-CODE-blue?style=for-the-badge&logo=r "R CODE")
 ![CSS CODE](https://img.shields.io/badge/CSS-CODE-blue?style=for-the-badge&logo=css3 "CSS CODE")
 ![HTML CODE](https://img.shields.io/badge/HTML-CODE-e34f27?style=for-the-badge&logo=html5 "HTML CODE")
 ![Node.js Runtime Environment](https://img.shields.io/badge/Node.js-ENV-3b883b?style=for-the-badge&logo=node.js "Node.js Runtime Environment")

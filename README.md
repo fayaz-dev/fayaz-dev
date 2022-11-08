@@ -77,8 +77,6 @@ Here are some ideas to get you started:
 
 * If I like a GitHub repo & it's within my dev stack, I usually fork it, even if I have no plan on contributing.
 
-* I occationally post **Develper Rhymes** on Twitter with the hash tag [#Dev_Rhyme](https://twitter.com/search?q=%23Dev_Rhyme).
-
 ## :mailbox_with_mail: Contact me:
 
 <a href="https://twitter.com/FayazDev">![Twitter inbox me @FayazDev](https://img.shields.io/badge/Twitter-@FayazDev-blue?style=for-the-badge&logo=twitter "Twitter inbox me @FayazDev")</a>

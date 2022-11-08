@@ -21,7 +21,7 @@ Here are some ideas to get you started:
 
 - Developing a JavaScript library for data filtering.
 
-- Developing my own [fayaz.dev](https://fayaz.dev) website (coming soon).
+- Developing my own [fayaz.dev](https://fayaz.dev) website (under construction).
 
 ## :tophat: My Stack:
 

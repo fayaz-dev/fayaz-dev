@@ -26,7 +26,7 @@ Here are some ideas to get you started:
 ## :tophat: My Stack:
 
 | Programming Languages | CMS, Environments, Frameworks & Editors | OS & Tools |
-| --------------------- | --------------------------------------- | ---------- |
+| :---                  |                  :---:                  |       ---: |
 | ![JavaScript CODE](https://img.shields.io/badge/JavaScript-CODE-f7df1f?style=for-the-badge&logo=javascript "JavaScript CODE") | ![WordPress CMS](https://img.shields.io/badge/WordPress-CMS-blue?style=for-the-badge&logo=wordpress "WordPress CMS") | ![Ubuntu OS](https://img.shields.io/badge/Ubuntu-OS-e95420?style=for-the-badge&logo=ubuntu "Ubuntu OS") |
 | ![PHP CODE](https://img.shields.io/badge/PHP-CODE-777bb4?style=for-the-badge&logo=php "PHP CODE") | ![Node.js Runtime Environment](https://img.shields.io/badge/Node.js-ENV-3b883b?style=for-the-badge&logo=node.js "Node.js Runtime Environment") | ![Mac OS](https://img.shields.io/badge/Mac-OS-blue?style=for-the-badge&logo=apple "Mac OS") |
 | ![Java CODE](https://img.shields.io/badge/Java-CODE-blue?style=for-the-badge&logo=java "Java CODE") | ![CSS CODE](https://img.shields.io/badge/CSS-CODE-blue?style=for-the-badge&logo=css3 "CSS CODE") | ![Android](https://img.shields.io/badge/Android-OS-3b883b?style=for-the-badge&logo=android "Android OS")  |
@@ -45,7 +45,7 @@ Wish me luck! 🚀
 ## :pray: Learning wish list:
 
 | Programming Languages | Frameworks, Tools & Others |
-| --------------------- | -------------------------- |
+| :----                 |                      ----: |
 | <a href="https://www.python.org/">![Python Programming](https://img.shields.io/badge/Python-code-3776ab?style=for-the-badge&logo=python "Python Programming")</a> | <a href="https://www.typescriptlang.org/">![TypeScript Programming](https://img.shields.io/badge/TypeScript-code-blue?style=for-the-badge&logo=typescript "TypeScript Programming")</a>  |
 | <a href="https://www.ruby-lang.org/">![Ruby Programming](https://img.shields.io/badge/Ruby-code-870f17?style=for-the-badge&logo=ruby "Ruby Programming")</a> | <a href="https://reactjs.org/">![React JS development](https://img.shields.io/badge/React-JS-5eb9d1?style=for-the-badge&logo=react "React JS development")</a>  |
 | <a href="https://soliditylang.org/">![Solidity Development](https://img.shields.io/badge/Solidity-code-191919?style=for-the-badge&logo=solidity "Solidity Development")</a> | <a href="https://en.wikipedia.org/wiki/Machine_learning">![Machine learning](https://img.shields.io/badge/%F0%9F%92%A1-ML-f89a03?style=for-the-badge&logo=AdobeIllustrator "Machine learning")</a> |

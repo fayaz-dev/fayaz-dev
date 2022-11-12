@@ -89,6 +89,4 @@ Tools I used to create this [README.md](https://github.com/fayazmiraz/fayazmiraz
 
 3. [Screenflow](https://www.telestream.net/screenflow/overview.htm) to create the banner gif.
 
-4. My own [fork of MarkText](https://github.com/fayazmiraz/marktext/) to edit markdown.
-
 <!--[Super Tiny Icons](https://github.com/edent/SuperTinyIcons) for Twitter icon.-->

@@ -62,7 +62,7 @@ Wish me luck! 🚀
 
 - [Answered 150+ questions](https://stackexchange.com/users/456021/fayaz) on the StackExchange Network, mostly on WordPress.
 
-- [69K+ answer views](https://www.quora.com/profile/Fayaz-Ahmed-10/) on Quora.
+- [73K+ answer views](https://www.quora.com/profile/Fayaz-Ahmed-10/) on Quora.
 
 ## :joy: Fun fact:
 

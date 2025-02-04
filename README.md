@@ -17,11 +17,13 @@ Here are some ideas to get you started:
 
 ## :hammer_and_wrench: I’m currently working on:
 
+- 🔭 Working with Agent.ai builder to create an AI Agent named PodcastX - it [generates on-demand Podcast from Tweets!](https://x.com/fayazDev/status/1884957423242514680).
+
 - Developing an interesting WordPress Plugin.
 
 - Developing a JavaScript library for data filtering.
 
-- Developing my own [fayaz.dev](https://fayaz.dev) website (under construction).
+- Developing my own [fayaz.dev](https://fayaz.dev) website (low priority ...).
 
 ## :tophat: My Stack:
 

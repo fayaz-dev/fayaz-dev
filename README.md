@@ -1,29 +1,31 @@
 ![Hello! I'm Fayaz. Wev Developer since 2006](media/hello-dev.gif?raw=true "Hello! I'm Fayaz. Wev Developer since 2006")
 
-<!--
-**fayazmiraz/fayazmiraz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
 ## :hammer_and_wrench: I’m currently working on:
 
-- 🔭 Working with Agent.ai builder to create an AI Agent named PodcastX - it [generates on-demand Podcast from Tweets!](https://x.com/fayazDev/status/1884957423242514680).
+- [ ] 🔭 Working with [Agent.ai](https://agent.ai/?referrer=fayazDev) builder to create an AI Agent named PodcastX - it [generates on-demand Podcast from Tweets!](https://agent.ai/agent/podcastx).
+- [ ] Developing my own [fayaz.dev](https://fayaz.dev) website.
+- [ ] Developing an interesting WordPress Plugin (pushed to later).
+- [ ] Developing a JavaScript library for data filtering (pushed to later).
 
-- Developing an interesting WordPress Plugin.
+## Recent Articles:
 
-- Developing a JavaScript library for data filtering.
+☑️ Written a couple of articled on dev.to recently, both related to Software Development and advancements in AI. You'll probably get a better understanding of my thoughts behind the writeups if you read them both:
+1. [State of AI in development (as of February, 2025)](https://dev.to/fm/rant-state-of-generative-ai-in-code-generation-1hej).
+2. [Where I see AI with respect to Software development by the end of 2025](https://dev.to/fm/predicting-2025-a-brave-new-world-4iip).
 
-- Developing my own [fayaz.dev](https://fayaz.dev) website (low priority ...).
+## Recent Wins:
+
+✅ Honerable mention in [Agent.ai Agent building Challenge on dev.to](https://dev.to/devteam/congrats-to-the-agentai-challenge-winners-5eg5)
+
+[![Agent building Challenge](https://github.com/user-attachments/assets/31cc4c46-e32b-4586-a382-46a639393fe3)](https://agent.ai/agent/podcastx)
+
+ 
+
+## :joy: Fun fact:
+
+> If I like a GitHub repo, I ⭐ it, and if I really really like a GitHub repo, I fork it too! 😇
+> 
+> I recently found joy in dumping [random dev-related thoughts on Tumblr](https://fayazdev.tumblr.com/).
 
 ## :tophat: My Stack:
 
@@ -65,10 +67,6 @@ Wish me luck! 🚀
 - [Answered 150+ questions](https://stackexchange.com/users/456021/fayaz) on the StackExchange Network, mostly on WordPress.
 
 - [73K+ answer views](https://www.quora.com/profile/Fayaz-Ahmed-10/) on Quora.
-
-## :joy: Fun fact:
-
-- If I like a GitHub repo & it's within my dev stack, I usually fork it, even if I have no plan on contributing.
 
 
 ## :mailbox_with_mail: Contact me:

@@ -41,6 +41,11 @@
 
 ## :crossed_fingers: Currently Learning & Reading :
 
+- [ ] Lua Programming Language.
+- [ ] Python Programming.
+
+## ♾️ Perpetual Learning List :
+
 - JavaScript in depth: unlearning and relearning!
 - [ECMA Script Specification](https://tc39.es/ecma262/multipage/). Yeah, advanced JS developers should read this document!
  

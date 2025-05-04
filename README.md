@@ -8,7 +8,7 @@
 
 ## Recent Projects:
 
-✅ Sbmitted my web game named [Robonaut's Quest to Black Hole](https://dev.to/fm/robonauts-quest-on-alibaba-cloud-497l) in an online contest.
+✅ Submitted my web game named [Robonaut's Quest to Black Hole](https://dev.to/fm/robonauts-quest-on-alibaba-cloud-497l) in an online contest.
 
 ✅ Written a couple of articles on dev.to recently, both related to Software Development and advancements in AI. You'll probably get a better understanding of my thoughts behind the writeups if you read them both:
 1. [State of AI in development (as of February, 2025)](https://dev.to/fm/rant-state-of-generative-ai-in-code-generation-1hej).

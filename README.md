@@ -2,13 +2,13 @@
 
 ## :hammer_and_wrench: I’m currently working on:
 
-- [ ] 🔭 Working with [Agent.ai](https://agent.ai/?referrer=fayazDev) builder to create an AI Agent named PodcastX - it [generates on-demand Podcast from Tweets!](https://agent.ai/agent/podcastx).
-- [ ] Developing my own [fayaz.dev](https://fayaz.dev) website.
+- [ ] 🔭 Experimenting with [Agent.ai](https://agent.ai/?referrer=fayazDev) builder.
 - [ ] Developing an interesting WordPress Plugin (pushed to later).
 - [ ] Developing a JavaScript library for data filtering (pushed to later).
 
-## Recent Articles:
+## Recent Projects:
 
+✅ Sbmitted my web game named [Robonaut's Quest to Black Hole](https://dev.to/fm/robonauts-quest-on-alibaba-cloud-497l) in an online contest.
 ✅ Written a couple of articles on dev.to recently, both related to Software Development and advancements in AI. You'll probably get a better understanding of my thoughts behind the writeups if you read them both:
 1. [State of AI in development (as of February, 2025)](https://dev.to/fm/rant-state-of-generative-ai-in-code-generation-1hej).
 2. [Where I see AI with respect to Software development by the end of 2025](https://dev.to/fm/predicting-2025-a-brave-new-world-4iip).

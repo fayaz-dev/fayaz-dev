@@ -27,7 +27,7 @@
 
 ## :joy: Fun fact:
 
-> 🔥 If I like a GitHub repo, I ⭐ it, and if I really really like a GitHub repo, I fork it too!
+> 🔥 If I like a GitHub repo, I ⭐ it, and if I really really like a GitHub repo, I fork it too (even if I have no plan to cotribute)!
 > 
 > 😇 I recently found joy in dumping [random dev-related thoughts on Tumblr](https://fayazdev.tumblr.com/).
 

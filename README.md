@@ -15,11 +15,11 @@
 
 ## Recent Wins:
 
-✅ Own the [Alibaba Cloud Web Game Development Challenge Hackathon on Dev.to](https://dev.to/devteam/congrats-to-the-alibaba-cloud-web-game-challenge-winners-2a3m) with my Game [Robonaut's Quest to Black Hole](https://dev.to/fm/robonauts-quest-on-alibaba-cloud-497l).
+✅ 🏆✨ Won the [Alibaba Cloud Web Game Development Challenge Hackathon on Dev.to](https://dev.to/devteam/congrats-to-the-alibaba-cloud-web-game-challenge-winners-2a3m) with my Game [Robonaut's Quest to Black Hole](https://dev.to/fm/robonauts-quest-on-alibaba-cloud-497l).
 
 ![Winning Post of Robonaut's Quest to Black Hole](https://github.com/user-attachments/assets/f9d82466-a245-44f9-ac71-ad65f923092c)
 
-✅ Honerable mention in [Agent.ai Agent building Challenge on dev.to](https://dev.to/devteam/congrats-to-the-agentai-challenge-winners-5eg5)
+✅ 🫡🙇‍♂️ Honerable mention in [Agent.ai Agent building Challenge on dev.to](https://dev.to/devteam/congrats-to-the-agentai-challenge-winners-5eg5)
 
 [![Agent building Challenge](https://github.com/user-attachments/assets/31cc4c46-e32b-4586-a382-46a639393fe3)](https://agent.ai/agent/podcastx)
 

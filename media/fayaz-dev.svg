@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  width="1200"
+  height="630"
+  viewBox="0 0 1200 630"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  role="img"
+  aria-labelledby="title desc"
+>
+  <title id="title">Developer. Thinker. Problem Solver.</title>
+  <desc id="desc">A modern neon-glass themed banner with animated gradients, soft glows, and a glass card showcasing the tagline: Developer. Thinker. Problem Solver.</desc>
+
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0B1222" />
+      <stop offset="50%" stop-color="#0A0F1F" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+
+    <!-- Subtle grid pattern -->
+    <pattern id="gridPattern" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0H0V60" stroke="#94a3b8" stroke-opacity="0.15" stroke-width="1" />
+      <path d="M30 0V60M0 30H60" stroke="#94a3b8" stroke-opacity="0.08" stroke-width="1" />
+    </pattern>
+
+    <!-- Glow filters -->
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="30" result="blur" />
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.9 0" />
+    </filter>
+
+    <!-- Noise texture -->
+    <filter id="noise" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" stitchTiles="stitch" result="turb" />
+      <feColorMatrix in="turb" type="saturate" values="0" />
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0 0.25 0" />
+      </feComponentTransfer>
+    </filter>
+
+    <!-- Radial paints for orbs -->
+    <radialGradient id="orbCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.9" />
+      <stop offset="60%" stop-color="#22d3ee" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="orbViolet" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0.9" />
+      <stop offset="60%" stop-color="#a78bfa" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="orbAmber" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.9" />
+      <stop offset="60%" stop-color="#fbbf24" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Glass card shadow -->
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="20" flood-color="#000" flood-opacity="0.35" />
+    </filter>
+
+    <!-- Shiny stroke gradient for card border -->
+    <linearGradient id="strokeGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.4" />
+      <stop offset="50%" stop-color="#e9d5ff" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#a5f3fc" stop-opacity="0.35" />
+    </linearGradient>
+
+    <!-- Accent underline gradient -->
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee" />
+      <stop offset="50%" stop-color="#a78bfa" />
+      <stop offset="100%" stop-color="#fbbf24" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#gridPattern)" opacity="0.25"/>
+  <rect width="1200" height="630" filter="url(#noise)" opacity="0.05"/>
+
+  <!-- Ambient orbs -->
+  <g filter="url(#softGlow)">
+    <circle cx="170" cy="130" r="180" fill="url(#orbCyan)">
+      <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="18s" values="0 0; 10 8; -6 6; 0 0" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1060" cy="520" r="220" fill="url(#orbViolet)">
+      <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="22s" values="0 0; -12 -6; 6 -10; 0 0" repeatCount="indefinite" />
+    </circle>
+    <circle cx="900" cy="120" r="140" fill="url(#orbAmber)">
+      <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="16s" values="0 0; -8 10; 8 4; 0 0" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- Decorative path -->
+  <g opacity="0.25">
+    <path d="M-50 500 C 200 440, 420 560, 660 500 S 1040 410, 1260 480" stroke="url(#accent)" stroke-width="3" fill="none">
+      <animate attributeName="stroke-opacity" values="0.15;0.3;0.15" dur="6s" repeatCount="indefinite" />
+    </path>
+  </g>
+
+  <!-- Glass card -->
+  <g transform="translate(120, 110)" filter="url(#cardShadow)">
+    <rect x="0" y="0" width="960" height="410" rx="28" ry="28" fill="#ffffff" opacity="0.06"/>
+    <rect x="0.5" y="0.5" width="959" height="409" rx="27.5" ry="27.5" fill="none" stroke="url(#strokeGrad)" stroke-width="1"/>
+
+    <!-- Top pill -->
+    <g transform="translate(36, 34)">
+      <rect x="0" y="0" rx="16" ry="16" width="148" height="36" fill="#ffffff" opacity="0.08" stroke="#ffffff" stroke-opacity="0.25"/>
+      <text x="74" y="24" text-anchor="middle" font-family="Inter, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, sans-serif" font-size="16" fill="#c7d2fe" letter-spacing="0.5" style="font-weight:600">fayaz.dev</text>
+    </g>
+
+    <!-- Headline -->
+    <g transform="translate(36, 110)">
+      <text x="0" y="0" font-family="Inter, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, sans-serif" font-size="52" style="font-weight:800;" fill="#f8fafc">Developer. Thinker. Problem Solver.</text>
+      <rect x="0" y="18" width="520" height="6" rx="3" fill="url(#accent)" opacity="0.65">
+        <animate attributeName="width" values="140;520;140" dur="7s" repeatCount="indefinite" />
+      </rect>
+    </g>
+
+    <!-- Subheadline -->
+    <g transform="translate(36, 180)">
+      <text x="0" y="0" font-family="Inter, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, sans-serif" font-size="22" fill="#cbd5e1" style="font-weight:500">Crafting clean, resilient software with a love for DX and performance.</text>
+    </g>
+
+    <!-- Highlights (chips) -->
+    <g transform="translate(36, 240)" font-family="Inter, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, sans-serif" font-size="16" fill="#e2e8f0">
+      <g>
+        <rect x="0" y="-20" rx="14" ry="14" width="140" height="36" fill="#ffffff" opacity="0.07" stroke="#e2e8f0" stroke-opacity="0.15"/>
+        <text x="70" y="4" text-anchor="middle">TypeScript • React</text>
+      </g>
+      <g transform="translate(156, 0)">
+        <rect x="0" y="-20" rx="14" ry="14" width="128" height="36" fill="#ffffff" opacity="0.07" stroke="#e2e8f0" stroke-opacity="0.15"/>
+        <text x="64" y="4" text-anchor="middle">Node.js • APIs</text>
+      </g>
+      <g transform="translate(300, 0)">
+        <rect x="0" y="-20" rx="14" ry="14" width="148" height="36" fill="#ffffff" opacity="0.07" stroke="#e2e8f0" stroke-opacity="0.15"/>
+        <text x="74" y="4" text-anchor="middle">Cloud • CI/CD</text>
+      </g>
+    </g>
+
+    <!-- Corner shine -->
+    <g opacity="0.3">
+      <path d="M960 0 L800 0 C 900 0 960 60 960 160 Z" fill="url(#accent)">
+        <animate attributeName="opacity" values="0.15;0.35;0.15" dur="8s" repeatCount="indefinite" />
+      </path>
+    </g>
+  </g>
+
+  <!-- Subtle foreground sparkles -->
+  <g opacity="0.5">
+    <g transform="translate(220, 520)">
+      <path d="M0 -8 L2 -2 L8 0 L2 2 L0 8 L-2 2 L-8 0 L-2 -2 Z" fill="#a78bfa" opacity="0.7">
+        <animateTransform attributeName="transform" type="rotate" values="0;360" dur="14s" repeatCount="indefinite" />
+      </path>
+    </g>
+    <g transform="translate(980, 120)">
+      <path d="M0 -6 L1.5 -1.5 L6 0 L1.5 1.5 L0 6 L-1.5 1.5 L-6 0 L-1.5 -1.5 Z" fill="#22d3ee" opacity="0.6">
+        <animateTransform attributeName="transform" type="rotate" values="360;0" dur="10s" repeatCount="indefinite" />
+      </path>
+    </g>
+  </g>
+
+  <!-- Accessibility: invisible border for better cropping when embedded -->
+  <rect x="0" y="0" width="1200" height="630" fill="none" stroke="none"/>
+</svg>

@@ -433,17 +433,18 @@
     </g>
 
     <!-- Subheadline -->
-    <g transform="translate(58, 340)">
-      <text x="0" y="0" font-family="Inter, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, sans-serif" font-size="40" fill="#cbd5e1" style="font-weight:500">
-        <tspan x="0" dy="0">Currently Experimenting with:</tspan>
+    <g transform="translate(58, 360)">
+      <text x="0" y="0" font-family="Inter, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, sans-serif" font-size="40" fill="#d1e705ff" style="font-weight:500">
+        <tspan x="0" dy="0">What's keeping me awake these days:</tspan>
       </text>
     </g>
-    <g transform="translate(68, 372)">
+    <g transform="translate(68, 368)">
       <text x="0" y="0" font-family="Inter, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, sans-serif" font-size="32" fill="#cbd5e1" style="font-weight:500">
-        <tspan x="0" dy="1.8em">⚡ Machine Learning.</tspan>
-        <tspan x="0" dy="1.8em">🚀 AI Code Generation.</tspan>
-        <tspan x="0" dy="1.8em">🔧 WordPress Plugin.</tspan>
-        <tspan x="0" dy="1.8em">📊 JavaScript Data Filtering.</tspan>
+        <tspan x="0" dy="1.8em">🤖 Machine Learning.</tspan>
+        <tspan x="0" dy="1.8em">🚀 Automating Software Engineering.</tspan>
+        <tspan x="0" dy="1.8em">📊 Data Filtration and Presentation.</tspan>
+        <tspan x="0" dy="1.8em">🔐 Software Security and Privacy in AI Era.</tspan>
+        <tspan x="0" dy="1.8em">🤔 Future of Work.</tspan>
       </text>
     </g>
 

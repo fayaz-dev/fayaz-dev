@@ -6,11 +6,11 @@
 - [ ] Developing an interesting WordPress Plugin (pushed to later).
 - [ ] Developing a JavaScript library for data filtering (pushed to later).
 
-## Recent Projects:
+## ✅ Recent Posts & Projects:
 
-✅ Written a couple of articles on dev.to recently, both related to Software Development and advancements in AI. You'll probably get a better understanding of my thoughts behind the writeups if you read them both:
-1. [State of AI in development (as of February, 2025)](https://dev.to/fm/rant-state-of-generative-ai-in-code-generation-1hej).
-2. [Where I see AI with respect to Software development by the end of 2025](https://dev.to/fm/predicting-2025-a-brave-new-world-4iip).
+1. [Use Algolia MCP Server & VSCode GitHub Copilot to Find and Submit Unique Projects in Dev Challenges! ❤️‍🔥](https://dev.to/fm/use-algolia-mcp-server-vscode-github-copilot-to-submit-unique-projects-in-dev-challenges-3ph1).
+2. [State of AI in development (as of February, 2025)](https://dev.to/fm/rant-state-of-generative-ai-in-code-generation-1hej).
+3. [Where I see AI with respect to Software development by the end of 2025](https://dev.to/fm/predicting-2025-a-brave-new-world-4iip).
 
 ## Recent Wins:
 

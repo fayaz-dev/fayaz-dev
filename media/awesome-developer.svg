@@ -335,17 +335,17 @@
     <text class="subtitle" x="80" y="170">Developer. Thinker. Problem Solver.</text>
   </g>
   
-  <!-- Multi-stage typewriter animation -->
+  <!-- Multi-stage typewriter animation - Fixed to show full text -->
   <animate xlink:href="#typeRect" attributeName="width" 
-    values="0;140;140;260;260;420;420;520;520;0" 
-    keyTimes="0;0.15;0.25;0.35;0.45;0.55;0.65;0.75;0.9;1" 
-    dur="10s" repeatCount="indefinite"/>
+    values="0;140;140;260;260;420;420;580;580;680;680;0" 
+    keyTimes="0;0.12;0.2;0.28;0.36;0.44;0.52;0.6;0.68;0.76;0.9;1" 
+    dur="12s" repeatCount="indefinite"/>
   
-  <!-- Enhanced animated cursor with color transitions -->
+  <!-- Enhanced animated cursor with color transitions - Fixed positioning -->
   <rect class="cursor" x="80" y="140" width="3" height="38" rx="2" ry="2" opacity="0.9">
-    <animate attributeName="x" values="80;220;220;360;360;500;500;600;600;80" 
-      keyTimes="0;0.15;0.25;0.35;0.45;0.55;0.65;0.75;0.9;1" 
-      dur="10s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="80;220;220;360;360;500;500;660;660;760;760;80" 
+      keyTimes="0;0.12;0.2;0.28;0.36;0.44;0.52;0.6;0.68;0.76;0.9;1" 
+      dur="12s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0;1;0" dur="0.8s" repeatCount="indefinite"/>
     <animate attributeName="fill" values="#06ffa5;#3a86ff;#ff006e;#06ffa5" dur="3s" repeatCount="indefinite"/>
   </rect>

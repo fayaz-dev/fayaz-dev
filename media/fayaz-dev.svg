@@ -76,6 +76,74 @@
       <stop offset="100%" stop-color="#fbbf24" />
     </linearGradient>
 
+    <!-- Animated text gradients for headline -->
+    <!-- Developer gradient with blue-cyan animation -->
+    <linearGradient id="developerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc">
+        <animate attributeName="stop-color" values="#f8fafc;#22d3ee;#06b6d4;#0891b2;#f8fafc" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#e2e8f0">
+        <animate attributeName="stop-color" values="#e2e8f0;#67e8f9;#22d3ee;#06b6d4;#e2e8f0" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#cbd5e1">
+        <animate attributeName="stop-color" values="#cbd5e1;#a5f3fc;#67e8f9;#22d3ee;#cbd5e1" dur="8s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Thinker gradient with purple-violet animation -->
+    <linearGradient id="thinkerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3c74ecff">
+        <animate attributeName="stop-color" values="#3c74ecff;#8b5cf6;#a78bfa;#c4b5fd;#3c74ecff" dur="6s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#6366f1">
+        <animate attributeName="stop-color" values="#6366f1;#a78bfa;#c4b5fd;#ddd6fe;#6366f1" dur="6s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#8b5cf6">
+        <animate attributeName="stop-color" values="#8b5cf6;#c4b5fd;#ddd6fe;#ede9fe;#8b5cf6" dur="6s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Problem Solver gradient with green-emerald animation -->
+    <linearGradient id="problemSolverGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1ea551ff">
+        <animate attributeName="stop-color" values="#1ea551ff;#10b981;#34d399;#6ee7b7;#1ea551ff" dur="10s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#059669">
+        <animate attributeName="stop-color" values="#059669;#34d399;#6ee7b7;#9df3c4;#059669" dur="10s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#047857">
+        <animate attributeName="stop-color" values="#047857;#6ee7b7;#9df3c4;#c6f6d5;#047857" dur="10s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Glow effects for text -->
+    <filter id="textGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Enhanced underline gradient with moving colors -->
+    <linearGradient id="accentAnimated" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee">
+        <animate attributeName="stop-color" values="#22d3ee;#8b5cf6;#fbbf24;#ef4444;#22d3ee" dur="12s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="25%" stop-color="#8b5cf6">
+        <animate attributeName="stop-color" values="#8b5cf6;#fbbf24;#ef4444;#22d3ee;#8b5cf6" dur="12s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#fbbf24">
+        <animate attributeName="stop-color" values="#fbbf24;#ef4444;#22d3ee;#8b5cf6;#fbbf24" dur="12s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="75%" stop-color="#ef4444">
+        <animate attributeName="stop-color" values="#ef4444;#22d3ee;#8b5cf6;#fbbf24;#ef4444" dur="12s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#22d3ee">
+        <animate attributeName="stop-color" values="#22d3ee;#8b5cf6;#fbbf24;#ef4444;#22d3ee" dur="12s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
     <!-- Flying Tech Tag Gradients -->
     <linearGradient id="jsGrad" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#f7df1e" stop-opacity="0.9" />
@@ -181,18 +249,63 @@
 
     <!-- Top pill -->
     <g transform="translate(58, 40)">
-      <rect x="0" y="0" rx="25" ry="25" width="237" height="58" fill="#ffffff" opacity="0.08" stroke="#ffffff" stroke-opacity="0.25"/>
-      <text x="118.5" y="38" text-anchor="middle" font-family="Inter, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, sans-serif" font-size="26" fill="#c7d2fe" letter-spacing="0.5" style="font-weight:600">fayaz.dev</text>
+      <rect x="0" y="0" rx="25" ry="25" width="237" height="58" fill="#1398c0ff" opacity="0.5" stroke="#2c0011ff" stroke-opacity="0.5" stroke-width="3"/>
+      <text x="118.5" y="40" text-anchor="middle" font-family="Inter, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, sans-serif" font-size="32" fill="#d0e700ff" style="font-weight:800">fayaz.dev</text>
     </g>
 
     <!-- Headline -->
     <g transform="translate(58, 200)">
-      <text x="0" y="0" font-family="Inter, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, sans-serif" font-size="84" style="font-weight:800;" fill="#f8fafc">Developer.</text>
-      <text x="450" y="0" font-family="Inter, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, sans-serif" font-size="84" style="font-weight:800;" fill="#3c74ecff">Thinker.</text>
-      <text x="800" y="0" font-family="Inter, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, sans-serif" font-size="84" style="font-weight:800;" fill="#1ea551ff">Problem Solver.</text>
-      <rect x="0" y="30" width="832" height="10" rx="5" fill="url(#accent)" opacity="0.65">
-        <animate attributeName="width" values="224;832;224" dur="7s" repeatCount="indefinite" />
+      <!-- Enhanced text with gradient fills and glow effects -->
+      <text x="0" y="0" font-family="Inter, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, sans-serif" font-size="84" style="font-weight:800;" fill="url(#developerGrad)" filter="url(#textGlow)">
+        Developer.
+        <!-- Text scaling animation for emphasis -->
+        <animateTransform attributeName="transform" type="scale" values="1;1.02;1" dur="8s" repeatCount="indefinite" />
+      </text>
+      <text x="450" y="0" font-family="Inter, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, sans-serif" font-size="84" style="font-weight:800;" fill="url(#thinkerGrad)" filter="url(#textGlow)">
+        Thinker.
+        <!-- Delayed scaling animation -->
+        <animateTransform attributeName="transform" type="scale" values="1;1.02;1" dur="6s" begin="2s" repeatCount="indefinite" />
+      </text>
+      <text x="800" y="0" font-family="Inter, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, sans-serif" font-size="84" style="font-weight:800;" fill="url(#problemSolverGrad)" filter="url(#textGlow)">
+        Problem Solver.
+        <!-- Another delayed scaling animation -->
+        <animateTransform attributeName="transform" type="scale" values="1;1.02;1" dur="10s" begin="4s" repeatCount="indefinite" />
+      </text>
+      
+      <!-- Enhanced animated underline with gradient colors -->
+      <rect x="0" y="30" width="832" height="10" rx="5" fill="url(#accentAnimated)" opacity="0.8">
+        <!-- Width animation with bounce effect -->
+        <animate attributeName="width" values="224;832;224;600;832" dur="14s" repeatCount="indefinite" />
+        <!-- Opacity pulsing -->
+        <animate attributeName="opacity" values="0.6;0.9;0.6;0.8;0.6" dur="8s" repeatCount="indefinite" />
+        <!-- Height variation for dynamic effect -->
+        <animate attributeName="height" values="10;14;10;12;10" dur="12s" repeatCount="indefinite" />
       </rect>
+      
+      <!-- Additional decorative elements -->
+      <!-- Subtle background glow for the entire headline -->
+      <rect x="-20" y="-30" width="1300" height="120" rx="15" fill="url(#accentAnimated)" opacity="0.05">
+        <animate attributeName="opacity" values="0.03;0.08;0.03" dur="15s" repeatCount="indefinite" />
+      </rect>
+      
+      <!-- Floating particles around text -->
+      <g opacity="0.4">
+        <circle cx="400" cy="-15" r="3" fill="#22d3ee">
+          <animate attributeName="r" values="2;5;2" dur="6s" repeatCount="indefinite" />
+          <animate attributeName="cy" values="-15;-25;-15" dur="8s" repeatCount="indefinite" />
+          <animate attributeName="opacity" values="0.3;0.7;0.3" dur="5s" repeatCount="indefinite" />
+        </circle>
+        <circle cx="750" cy="-20" r="2.5" fill="#a78bfa">
+          <animate attributeName="r" values="1.5;4;1.5" dur="7s" repeatCount="indefinite" />
+          <animate attributeName="cy" values="-20;-30;-20" dur="9s" repeatCount="indefinite" />
+          <animate attributeName="opacity" values="0.2;0.6;0.2" dur="6s" repeatCount="indefinite" />
+        </circle>
+        <circle cx="1100" cy="-18" r="3.5" fill="#fbbf24">
+          <animate attributeName="r" values="2;6;2" dur="8s" repeatCount="indefinite" />
+          <animate attributeName="cy" values="-18;-28;-18" dur="10s" repeatCount="indefinite" />
+          <animate attributeName="opacity" values="0.4;0.8;0.4" dur="7s" repeatCount="indefinite" />
+        </circle>
+      </g>
     </g>
 
     <!-- Subheadline -->

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg
-  width="1200"
-  height="630"
-  viewBox="0 0 1200 630"
+  width="1920"
+  height="1080"
+  viewBox="0 0 1920 1080"
   fill="none"
   xmlns="http://www.w3.org/2000/svg"
   role="img"
@@ -13,16 +13,16 @@
 
   <defs>
     <!-- Background gradient -->
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+    <linearGradient id="bg" x1="0" y1="0" x2="1920" y2="1080" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#0B1222" />
       <stop offset="50%" stop-color="#0A0F1F" />
       <stop offset="100%" stop-color="#020617" />
     </linearGradient>
 
     <!-- Subtle grid pattern -->
-    <pattern id="gridPattern" width="60" height="60" patternUnits="userSpaceOnUse">
-      <path d="M60 0H0V60" stroke="#94a3b8" stroke-opacity="0.15" stroke-width="1" />
-      <path d="M30 0V60M0 30H60" stroke="#94a3b8" stroke-opacity="0.08" stroke-width="1" />
+    <pattern id="gridPattern" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M80 0H0V80" stroke="#94a3b8" stroke-opacity="0.15" stroke-width="1" />
+      <path d="M40 0V80M0 40H80" stroke="#94a3b8" stroke-opacity="0.08" stroke-width="1" />
     </pattern>
 
     <!-- Glow filters -->
@@ -150,52 +150,52 @@
   </defs>
 
   <!-- Background -->
-  <rect width="1200" height="630" fill="url(#bg)"/>
-  <rect width="1200" height="630" fill="url(#gridPattern)" opacity="0.25"/>
-  <rect width="1200" height="630" filter="url(#noise)" opacity="0.05"/>
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+  <rect width="1920" height="1080" fill="url(#gridPattern)" opacity="0.25"/>
+  <rect width="1920" height="1080" filter="url(#noise)" opacity="0.05"/>
 
   <!-- Ambient orbs -->
   <g filter="url(#softGlow)">
-    <circle cx="170" cy="130" r="180" fill="url(#orbCyan)">
-      <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="18s" values="0 0; 10 8; -6 6; 0 0" repeatCount="indefinite" />
+    <circle cx="272" cy="220" r="280" fill="url(#orbCyan)">
+      <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="18s" values="0 0; 16 14; -10 10; 0 0" repeatCount="indefinite" />
     </circle>
-    <circle cx="1060" cy="520" r="220" fill="url(#orbViolet)">
-      <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="22s" values="0 0; -12 -6; 6 -10; 0 0" repeatCount="indefinite" />
+    <circle cx="1696" cy="890" r="350" fill="url(#orbViolet)">
+      <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="22s" values="0 0; -19 -10; 10 -16; 0 0" repeatCount="indefinite" />
     </circle>
-    <circle cx="900" cy="120" r="140" fill="url(#orbAmber)">
-      <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="16s" values="0 0; -8 10; 8 4; 0 0" repeatCount="indefinite" />
+    <circle cx="1440" cy="200" r="220" fill="url(#orbAmber)">
+      <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="16s" values="0 0; -13 16; 13 7; 0 0" repeatCount="indefinite" />
     </circle>
   </g>
 
   <!-- Decorative path -->
   <g opacity="0.25">
-    <path d="M-50 500 C 200 440, 420 560, 660 500 S 1040 410, 1260 480" stroke="url(#accent)" stroke-width="3" fill="none">
+    <path d="M-80 860 C 320 755, 672 960, 1056 860 S 1664 702, 2016 820" stroke="url(#accent)" stroke-width="4" fill="none">
       <animate attributeName="stroke-opacity" values="0.15;0.3;0.15" dur="6s" repeatCount="indefinite" />
     </path>
   </g>
 
   <!-- Glass card -->
-  <g transform="translate(120, 110)" filter="url(#cardShadow)">
-    <rect x="0" y="0" width="960" height="410" rx="28" ry="28" fill="#ffffff" opacity="0.06"/>
-    <rect x="0.5" y="0.5" width="959" height="409" rx="27.5" ry="27.5" fill="none" stroke="url(#strokeGrad)" stroke-width="1"/>
+  <g transform="translate(192, 190)" filter="url(#cardShadow)">
+    <rect x="0" y="0" width="1536" height="700" rx="45" ry="45" fill="#ffffff" opacity="0.06"/>
+    <rect x="0.5" y="0.5" width="1535" height="699" rx="44.5" ry="44.5" fill="none" stroke="url(#strokeGrad)" stroke-width="1"/>
 
     <!-- Top pill -->
-    <g transform="translate(36, 24)">
-      <rect x="0" y="0" rx="16" ry="16" width="148" height="36" fill="#ffffff" opacity="0.08" stroke="#ffffff" stroke-opacity="0.25"/>
-      <text x="74" y="24" text-anchor="middle" font-family="Inter, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, sans-serif" font-size="16" fill="#c7d2fe" letter-spacing="0.5" style="font-weight:600">fayaz.dev</text>
+    <g transform="translate(58, 40)">
+      <rect x="0" y="0" rx="25" ry="25" width="237" height="58" fill="#ffffff" opacity="0.08" stroke="#ffffff" stroke-opacity="0.25"/>
+      <text x="118.5" y="38" text-anchor="middle" font-family="Inter, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, sans-serif" font-size="26" fill="#c7d2fe" letter-spacing="0.5" style="font-weight:600">fayaz.dev</text>
     </g>
 
     <!-- Headline -->
-    <g transform="translate(36, 120)">
-      <text x="0" y="0" font-family="Inter, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, sans-serif" font-size="52" style="font-weight:800;" fill="#f8fafc">Developer. Thinker. Problem Solver.</text>
-      <rect x="0" y="18" width="520" height="6" rx="3" fill="url(#accent)" opacity="0.65">
-        <animate attributeName="width" values="140;520;140" dur="7s" repeatCount="indefinite" />
+    <g transform="translate(58, 200)">
+      <text x="0" y="0" font-family="Inter, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, sans-serif" font-size="84" style="font-weight:800;" fill="#f8fafc">Developer. Thinker. Problem Solver.</text>
+      <rect x="0" y="30" width="832" height="10" rx="5" fill="url(#accent)" opacity="0.65">
+        <animate attributeName="width" values="224;832;224" dur="7s" repeatCount="indefinite" />
       </rect>
     </g>
 
     <!-- Subheadline -->
-    <g transform="translate(36, 200)">
-      <text x="0" y="0" font-family="Inter, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, sans-serif" font-size="22" fill="#cbd5e1" style="font-weight:500">
+    <g transform="translate(58, 340)">
+      <text x="0" y="0" font-family="Inter, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, sans-serif" font-size="36" fill="#cbd5e1" style="font-weight:500">
         <tspan x="0" dy="0">Currently Experimenting with:</tspan>
         <tspan x="0" dy="1.4em">🚀 AI Code Generation • 🔧 WordPress Plugin Development</tspan>
         <tspan x="0" dy="1.4em">📊 JavaScript Data Filtering • ⚡ Machine Learning.</tspan>
@@ -203,187 +203,187 @@
     </g>
 
     <!-- Flying Tech Tags Animation -->
-    <g transform="translate(36, 320)" font-family="Inter, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, sans-serif" opacity="0.85">
+    <g transform="translate(0, 0)" font-family="Inter, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, sans-serif" opacity="0.85">
       
       <!-- JavaScript - Orbital pattern -->
       <g filter="url(#techGlow)">
-        <rect x="0" y="0" rx="16" ry="16" width="60" height="28" fill="url(#jsGrad)"/>
-        <text x="30" y="19" text-anchor="middle" font-size="11" fill="#000" style="font-weight:700">JS</text>
+        <rect x="0" y="0" rx="25" ry="25" width="120" height="50" fill="url(#jsGrad)"/>
+        <text x="60" y="33" text-anchor="middle" font-size="18" fill="#000" style="font-weight:700">JavaScript</text>
         <animateTransform attributeName="transform" type="translate" 
-          dur="12s" values="0 0; 120 -30; 240 10; 360 -20; 480 15; 600 -25; 720 5; 800 -15; 650 25; 400 35; 200 -10; 0 0" 
+          dur="18s" values="100 200; 400 150; 800 300; 1200 250; 1600 400; 1400 600; 1000 800; 600 950; 300 700; 150 500; 50 350; 100 200" 
           repeatCount="indefinite" />
         <animateTransform attributeName="transform" type="rotate" additive="sum"
-          dur="8s" values="0; 360" repeatCount="indefinite" />
+          dur="12s" values="0; 360" repeatCount="indefinite" />
       </g>
 
       <!-- PHP - Figure-8 pattern -->
-      <g transform="translate(100, 20)" filter="url(#techGlow)">
-        <rect x="0" y="0" rx="16" ry="16" width="60" height="28" fill="url(#phpGrad)"/>
-        <text x="30" y="19" text-anchor="middle" font-size="11" fill="#fff" style="font-weight:700">PHP</text>
+      <g filter="url(#techGlow)">
+        <rect x="0" y="0" rx="25" ry="25" width="90" height="50" fill="url(#phpGrad)"/>
+        <text x="45" y="33" text-anchor="middle" font-size="18" fill="#fff" style="font-weight:700">PHP</text>
         <animateTransform attributeName="transform" type="translate" 
-          dur="15s" values="0 0; 150 -40; 300 0; 450 40; 600 0; 450 -40; 300 0; 150 40; 0 0" 
+          dur="20s" values="1500 150; 1200 100; 900 200; 600 100; 300 200; 600 300; 900 200; 1200 300; 1500 200; 1700 400; 1500 600; 1200 500; 900 600; 600 500; 300 600; 600 700; 900 600; 1200 700; 1500 600; 1700 400; 1500 150" 
           repeatCount="indefinite" />
         <animate attributeName="opacity" values="0.7;1;0.8;1;0.7" dur="5s" repeatCount="indefinite" />
       </g>
 
       <!-- Node.js - Sine wave pattern -->
-      <g transform="translate(50, 50)" filter="url(#techGlow)">
-        <rect x="0" y="0" rx="16" ry="16" width="70" height="28" fill="url(#nodeGrad)"/>
-        <text x="35" y="19" text-anchor="middle" font-size="10" fill="#fff" style="font-weight:700">Node</text>
+      <g filter="url(#techGlow)">
+        <rect x="0" y="0" rx="25" ry="25" width="110" height="50" fill="url(#nodeGrad)"/>
+        <text x="55" y="33" text-anchor="middle" font-size="16" fill="#fff" style="font-weight:700">Node.js</text>
         <animateTransform attributeName="transform" type="translate" 
-          dur="18s" values="0 0; 100 -25; 200 0; 300 25; 400 0; 500 -30; 600 0; 700 20; 600 40; 500 20; 400 0; 300 -20; 200 0; 100 25; 0 0" 
+          dur="22s" values="200 800; 400 700; 600 850; 800 750; 1000 900; 1200 800; 1400 950; 1600 850; 1700 700; 1500 600; 1300 750; 1100 650; 900 800; 700 700; 500 850; 300 750; 100 900; 200 800" 
           repeatCount="indefinite" />
         <animateTransform attributeName="transform" type="scale" additive="sum"
           dur="4s" values="1; 1.1; 1; 0.9; 1" repeatCount="indefinite" />
       </g>
 
       <!-- React - Circular orbit -->
-      <g transform="translate(200, 30)" filter="url(#techGlow)">
-        <rect x="0" y="0" rx="16" ry="16" width="65" height="28" fill="url(#reactGrad)"/>
-        <text x="32.5" y="19" text-anchor="middle" font-size="10" fill="#000" style="font-weight:700">React</text>
+      <g filter="url(#techGlow)">
+        <rect x="0" y="0" rx="25" ry="25" width="100" height="50" fill="url(#reactGrad)"/>
+        <text x="50" y="33" text-anchor="middle" font-size="17" fill="#000" style="font-weight:700">React</text>
         <animateTransform attributeName="transform" type="translate" 
-          dur="14s" values="0 0; 80 -35; 160 -50; 240 -35; 320 0; 240 35; 160 50; 80 35; 0 0" 
+          dur="16s" values="960 540; 1160 440; 1360 540; 1160 640; 960 540; 760 640; 560 540; 760 440; 960 540" 
           repeatCount="indefinite" />
         <animateTransform attributeName="transform" type="rotate" additive="sum"
-          dur="6s" values="0; -360" repeatCount="indefinite" />
+          dur="8s" values="0; -360" repeatCount="indefinite" />
       </g>
 
       <!-- WordPress - Zigzag pattern -->
-      <g transform="translate(150, 70)" filter="url(#techGlow)">
-        <rect x="0" y="0" rx="16" ry="16" width="55" height="28" fill="url(#wpGrad)"/>
-        <text x="27.5" y="19" text-anchor="middle" font-size="11" fill="#fff" style="font-weight:700">WP</text>
+      <g filter="url(#techGlow)">
+        <rect x="0" y="0" rx="25" ry="25" width="130" height="50" fill="url(#wpGrad)"/>
+        <text x="65" y="33" text-anchor="middle" font-size="16" fill="#fff" style="font-weight:700">WordPress</text>
         <animateTransform attributeName="transform" type="translate" 
-          dur="16s" values="0 0; 120 -20; 80 -40; 200 -30; 160 -50; 280 -40; 240 -60; 360 -50; 320 -30; 200 -10; 80 10; 0 0" 
+          dur="24s" values="50 50; 300 200; 200 350; 500 300; 400 500; 700 450; 600 650; 900 600; 800 800; 1100 750; 1000 950; 1300 900; 1200 1050; 1500 1000; 1700 850; 1400 700; 1100 550; 800 400; 500 250; 200 100; 50 50" 
           repeatCount="indefinite" />
         <animate attributeName="opacity" values="0.8;0.6;1;0.7;0.8" dur="7s" repeatCount="indefinite" />
       </g>
 
       <!-- VSCode - Spiral pattern -->
-      <g transform="translate(300, 10)" filter="url(#techGlow)">
-        <rect x="0" y="0" rx="16" ry="16" width="65" height="28" fill="url(#vscodeGrad)"/>
-        <text x="32.5" y="19" text-anchor="middle" font-size="10" fill="#fff" style="font-weight:700">Code</text>
+      <g filter="url(#techGlow)">
+        <rect x="0" y="0" rx="25" ry="25" width="110" height="50" fill="url(#vscodeGrad)"/>
+        <text x="55" y="33" text-anchor="middle" font-size="16" fill="#fff" style="font-weight:700">VSCode</text>
         <animateTransform attributeName="transform" type="translate" 
-          dur="20s" values="0 0; 40 -15; 80 -25; 120 -30; 160 -25; 200 -15; 240 0; 280 15; 320 25; 360 30; 320 35; 280 30; 240 20; 200 5; 160 -5; 120 -15; 80 -20; 40 -15; 0 0" 
+          dur="26s" values="960 100; 1060 120; 1160 160; 1260 220; 1360 300; 1460 400; 1560 520; 1660 660; 1760 820; 1660 980; 1560 900; 1460 820; 1360 740; 1260 660; 1160 580; 1060 500; 960 420; 860 500; 760 580; 660 660; 560 740; 460 820; 360 900; 260 980; 160 820; 260 660; 360 520; 460 400; 560 300; 660 220; 760 160; 860 120; 960 100" 
           repeatCount="indefinite" />
         <animateTransform attributeName="transform" type="rotate" additive="sum"
-          dur="12s" values="0; 720" repeatCount="indefinite" />
+          dur="15s" values="0; 720" repeatCount="indefinite" />
       </g>
 
       <!-- CSS - Random bouncing -->
-      <g transform="translate(400, 40)" filter="url(#trail)">
-        <rect x="0" y="0" rx="16" ry="16" width="55" height="28" fill="#1572b6" fill-opacity="0.8"/>
-        <text x="27.5" y="19" text-anchor="middle" font-size="11" fill="#fff" style="font-weight:700">CSS</text>
+      <g filter="url(#trail)">
+        <rect x="0" y="0" rx="25" ry="25" width="85" height="50" fill="#1572b6" fill-opacity="0.8"/>
+        <text x="42.5" y="33" text-anchor="middle" font-size="18" fill="#fff" style="font-weight:700">CSS</text>
         <animateTransform attributeName="transform" type="translate" 
-          dur="13s" values="0 0; -60 -30; 40 -50; -20 -20; 80 -60; 20 -40; -40 -70; 60 -30; 0 -45; -80 -25; 0 0" 
+          dur="19s" values="1400 300; 1200 150; 1600 250; 1300 100; 1700 400; 1450 200; 1800 500; 1500 350; 1350 600; 1100 450; 1250 800; 900 650; 1050 950; 700 750; 850 1000; 500 850; 650 900; 300 700; 450 600; 100 450; 250 300; 400 150; 600 250; 800 100; 1000 200; 1200 300; 1400 300" 
           repeatCount="indefinite" />
         <animate attributeName="opacity" values="0.6;1;0.7;1;0.6" dur="3s" repeatCount="indefinite" />
       </g>
 
       <!-- HTML - Pendulum swing -->
-      <g transform="translate(480, 60)" filter="url(#trail)">
-        <rect x="0" y="0" rx="16" ry="16" width="60" height="28" fill="#e34f26" fill-opacity="0.8"/>
-        <text x="30" y="19" text-anchor="middle" font-size="10" fill="#fff" style="font-weight:700">HTML</text>
+      <g filter="url(#trail)">
+        <rect x="0" y="0" rx="25" ry="25" width="95" height="50" fill="#e34f26" fill-opacity="0.8"/>
+        <text x="47.5" y="33" text-anchor="middle" font-size="17" fill="#fff" style="font-weight:700">HTML</text>
         <animateTransform attributeName="transform" type="translate" 
-          dur="11s" values="0 0; -100 -20; -150 -40; -100 -60; 0 -80; 100 -60; 150 -40; 100 -20; 0 0" 
+          dur="17s" values="200 400; 50 300; 20 500; 100 700; 300 900; 600 1000; 900 900; 1200 700; 1300 500; 1200 300; 900 100; 600 50; 300 100; 100 300; 200 400" 
           repeatCount="indefinite" />
         <animateTransform attributeName="transform" type="rotate" additive="sum"
-          dur="11s" values="0; 45; 0; -45; 0" repeatCount="indefinite" />
+          dur="17s" values="0; 90; 0; -90; 0" repeatCount="indefinite" />
       </g>
 
       <!-- Java - Elliptical orbit -->
-      <g transform="translate(350, 80)" filter="url(#trail)">
-        <rect x="0" y="0" rx="16" ry="16" width="55" height="28" fill="#ed8b00" fill-opacity="0.8"/>
-        <text x="27.5" y="19" text-anchor="middle" font-size="10" fill="#fff" style="font-weight:700">Java</text>
+      <g filter="url(#trail)">
+        <rect x="0" y="0" rx="25" ry="25" width="90" height="50" fill="#ed8b00" fill-opacity="0.8"/>
+        <text x="45" y="33" text-anchor="middle" font-size="17" fill="#fff" style="font-weight:700">Java</text>
         <animateTransform attributeName="transform" type="translate" 
-          dur="17s" values="0 0; 140 -15; 220 -30; 280 -15; 200 0; 120 15; 40 30; -20 15; 0 0" 
+          dur="21s" values="800 600; 1000 500; 1200 600; 1400 700; 1600 800; 1400 900; 1200 1000; 1000 900; 800 800; 600 700; 400 600; 200 500; 100 400; 200 300; 400 200; 600 300; 800 400; 1000 300; 1200 200; 1400 300; 1600 400; 1400 500; 1200 400; 1000 500; 800 600" 
           repeatCount="indefinite" />
         <animate attributeName="opacity" values="0.7;0.9;0.6;1;0.7" dur="6s" repeatCount="indefinite" />
       </g>
 
       <!-- Shell - Chaotic pattern -->
-      <g transform="translate(550, 25)" filter="url(#trail)">
-        <rect x="0" y="0" rx="16" ry="16" width="60" height="28" fill="#4eaa25" fill-opacity="0.8"/>
-        <text x="30" y="19" text-anchor="middle" font-size="10" fill="#fff" style="font-weight:700">Shell</text>
+      <g filter="url(#trail)">
+        <rect x="0" y="0" rx="25" ry="25" width="95" height="50" fill="#4eaa25" fill-opacity="0.8"/>
+        <text x="47.5" y="33" text-anchor="middle" font-size="16" fill="#fff" style="font-weight:700">Shell</text>
         <animateTransform attributeName="transform" type="translate" 
-          dur="19s" values="0 0; -80 -15; 40 -35; -120 -25; 20 -55; -60 -45; 80 -65; -40 -35; 100 -15; -20 -25; 0 0" 
+          dur="23s" values="1600 200; 1400 50; 1800 100; 1300 250; 1700 400; 1200 350; 1750 600; 1100 550; 1650 800; 1000 750; 1550 1000; 900 950; 700 800; 500 600; 300 400; 100 200; 50 400; 250 600; 450 800; 650 1000; 850 800; 1050 600; 1250 400; 1450 200; 1600 200" 
           repeatCount="indefinite" />
         <animateTransform attributeName="transform" type="scale" additive="sum"
           dur="3s" values="1; 1.2; 0.8; 1.1; 1" repeatCount="indefinite" />
       </g>
 
       <!-- Ubuntu - Looping pattern -->
-      <g transform="translate(250, 90)" filter="url(#trail)">
-        <rect x="0" y="0" rx="16" ry="16" width="70" height="28" fill="#e95420" fill-opacity="0.8"/>
-        <text x="35" y="19" text-anchor="middle" font-size="10" fill="#fff" style="font-weight:700">Ubuntu</text>
+      <g filter="url(#trail)">
+        <rect x="0" y="0" rx="25" ry="25" width="110" height="50" fill="#e95420" fill-opacity="0.8"/>
+        <text x="55" y="33" text-anchor="middle" font-size="16" fill="#fff" style="font-weight:700">Ubuntu</text>
         <animateTransform attributeName="transform" type="translate" 
-          dur="22s" values="0 0; 160 -10; 280 -30; 320 -50; 280 -70; 160 -50; 40 -70; 0 -50; 40 -30; 160 -10; 0 0" 
+          dur="25s" values="400 900; 600 800; 800 950; 1000 850; 1200 1000; 1400 900; 1600 1050; 1800 950; 1700 750; 1500 650; 1300 800; 1100 700; 900 850; 700 750; 500 900; 300 800; 100 950; 200 700; 400 600; 600 750; 800 650; 1000 800; 1200 700; 1400 850; 400 900" 
           repeatCount="indefinite" />
         <animate attributeName="opacity" values="0.6;1;0.8;0.7;1;0.6" dur="8s" repeatCount="indefinite" />
       </g>
 
       <!-- Python - Snake-like pattern -->
-      <g transform="translate(450, 15)" filter="url(#techGlow)">
-        <rect x="0" y="0" rx="16" ry="16" width="70" height="28" fill="url(#pythonGrad)"/>
-        <text x="35" y="19" text-anchor="middle" font-size="9" fill="#fff" style="font-weight:700">Python</text>
+      <g filter="url(#techGlow)">
+        <rect x="0" y="0" rx="25" ry="25" width="110" height="50" fill="url(#pythonGrad)"/>
+        <text x="55" y="33" text-anchor="middle" font-size="16" fill="#fff" style="font-weight:700">Python</text>
         <animateTransform attributeName="transform" type="translate" 
-          dur="21s" values="0 0; -60 -20; -120 -10; -180 -30; -240 -15; -180 -45; -120 -35; -60 -55; 0 -40; 60 -60; 120 -45; 180 -25; 120 -5; 60 -20; 0 0" 
+          dur="27s" values="100 100; 300 150; 500 100; 700 200; 900 150; 1100 250; 1300 200; 1500 300; 1700 250; 1800 450; 1600 550; 1400 450; 1200 550; 1000 450; 800 550; 600 450; 400 550; 200 450; 50 550; 150 750; 350 650; 550 750; 750 650; 950 750; 1150 650; 1350 750; 1550 650; 1750 750; 1850 950; 1650 850; 1450 950; 1250 850; 1050 950; 850 850; 650 950; 450 850; 250 950; 100 850; 100 100" 
           repeatCount="indefinite" />
         <animateTransform attributeName="transform" type="rotate" additive="sum"
-          dur="7s" values="0; 180; 360" repeatCount="indefinite" />
+          dur="9s" values="0; 180; 360" repeatCount="indefinite" />
       </g>
 
       <!-- R - Statistical wave pattern -->
-      <g transform="translate(380, 75)" filter="url(#techGlow)">
-        <rect x="0" y="0" rx="16" ry="16" width="45" height="28" fill="url(#rGrad)"/>
-        <text x="22.5" y="19" text-anchor="middle" font-size="12" fill="#fff" style="font-weight:700">R</text>
+      <g filter="url(#techGlow)">
+        <rect x="0" y="0" rx="25" ry="25" width="70" height="50" fill="url(#rGrad)"/>
+        <text x="35" y="33" text-anchor="middle" font-size="20" fill="#fff" style="font-weight:700">R</text>
         <animateTransform attributeName="transform" type="translate" 
-          dur="16s" values="0 0; 80 -25; 160 -15; 240 -35; 160 -55; 80 -45; 0 -65; -80 -45; -160 -35; -80 -15; 0 0" 
+          dur="14s" values="1800 600; 1600 550; 1400 650; 1200 600; 1000 700; 800 650; 600 750; 400 700; 200 800; 100 650; 300 500; 500 600; 700 500; 900 600; 1100 500; 1300 600; 1500 500; 1700 600; 1800 600" 
           repeatCount="indefinite" />
         <animate attributeName="opacity" values="0.7;1;0.6;0.9;0.8;1;0.7" dur="4s" repeatCount="indefinite" />
       </g>
 
       <!-- AI - Pulsing neural network pattern -->
-      <g transform="translate(120, 85)" filter="url(#techGlow)">
-        <rect x="0" y="0" rx="16" ry="16" width="50" height="28" fill="url(#aiGrad)"/>
-        <text x="25" y="19" text-anchor="middle" font-size="11" fill="#fff" style="font-weight:700">AI</text>
+      <g filter="url(#techGlow)">
+        <rect x="0" y="0" rx="25" ry="25" width="80" height="50" fill="url(#aiGrad)"/>
+        <text x="40" y="33" text-anchor="middle" font-size="18" fill="#fff" style="font-weight:700">AI</text>
         <animateTransform attributeName="transform" type="translate" 
-          dur="14s" values="0 0; 150 -35; 300 -20; 450 -45; 300 -65; 150 -50; 0 -75; -150 -50; -300 -45; -150 -20; 0 0" 
+          dur="15s" values="960 300; 1260 200; 1560 350; 1760 550; 1560 750; 1260 900; 960 800; 660 900; 360 750; 160 550; 360 350; 660 200; 960 300" 
           repeatCount="indefinite" />
         <animateTransform attributeName="transform" type="scale" additive="sum"
-          dur="2s" values="1; 1.3; 0.8; 1.2; 1" repeatCount="indefinite" />
+          dur="2s" values="1; 1.4; 0.8; 1.3; 1" repeatCount="indefinite" />
         <animate attributeName="opacity" values="0.8;1;0.6;1;0.8" dur="3s" repeatCount="indefinite" />
       </g>
 
       <!-- Machine Learning - Complex algorithmic pattern -->
-      <g transform="translate(180, 45)" filter="url(#techGlow)">
-        <rect x="0" y="0" rx="16" ry="16" width="85" height="28" fill="url(#mlGrad)"/>
-        <text x="42.5" y="19" text-anchor="middle" font-size="8" fill="#fff" style="font-weight:700">ML</text>
+      <g filter="url(#techGlow)">
+        <rect x="0" y="0" rx="25" ry="25" width="180" height="50" fill="url(#mlGrad)"/>
+        <text x="90" y="33" text-anchor="middle" font-size="14" fill="#fff" style="font-weight:700">Machine Learning</text>
         <animateTransform attributeName="transform" type="translate" 
-          dur="25s" values="0 0; 100 -15; 200 -35; 250 -55; 300 -35; 350 -15; 400 -45; 350 -65; 300 -85; 250 -65; 200 -45; 150 -75; 100 -55; 50 -35; 0 0" 
+          dur="30s" values="600 400; 800 300; 1000 450; 1200 350; 1400 500; 1600 400; 1800 550; 1700 750; 1500 850; 1300 750; 1100 850; 900 750; 700 850; 500 750; 300 850; 100 750; 200 550; 400 650; 600 550; 800 650; 1000 550; 1200 650; 1400 550; 1600 650; 1800 550; 1700 350; 1500 250; 1300 350; 1100 250; 900 350; 700 250; 500 350; 300 250; 100 350; 200 150; 400 250; 600 150; 800 250; 1000 150; 1200 250; 1400 150; 1600 250; 1800 150; 1600 50; 1400 150; 1200 50; 1000 150; 800 50; 600 150; 600 400" 
           repeatCount="indefinite" />
         <animateTransform attributeName="transform" type="rotate" additive="sum"
-          dur="15s" values="0; 270; 540; 360; 0" repeatCount="indefinite" />
+          dur="18s" values="0; 270; 540; 360; 0" repeatCount="indefinite" />
         <animate attributeName="opacity" values="0.6;0.9;1;0.7;0.8;1;0.6" dur="6s" repeatCount="indefinite" />
       </g>
 
       <!-- Floating sparkles around the flying tags -->
       <g opacity="0.7">
-        <circle cx="100" cy="10" r="1.5" fill="#22d3ee">
-          <animate attributeName="r" values="1;3;1" dur="4s" repeatCount="indefinite" />
+        <circle cx="400" cy="300" r="3" fill="#22d3ee">
+          <animate attributeName="r" values="2;6;2" dur="4s" repeatCount="indefinite" />
           <animateTransform attributeName="transform" type="translate" 
-            dur="25s" values="0 0; 200 -20; 400 10; 600 -30; 400 -50; 200 -30; 0 0" 
+            dur="28s" values="0 0; 600 -200; 1200 100; 1800 -300; 1200 -500; 600 -300; 0 0" 
             repeatCount="indefinite" />
         </circle>
-        <circle cx="300" cy="20" r="2" fill="#a78bfa">
-          <animate attributeName="r" values="0.5;2.5;0.5" dur="3s" repeatCount="indefinite" />
+        <circle cx="1200" cy="600" r="4" fill="#a78bfa">
+          <animate attributeName="r" values="1.5;5;1.5" dur="3s" repeatCount="indefinite" />
           <animateTransform attributeName="transform" type="translate" 
-            dur="30s" values="0 0; -100 -40; 200 -60; 500 -20; 300 -80; 0 0" 
+            dur="35s" values="0 0; -400 -400; 800 -600; 1400 -200; 800 -800; 0 0" 
             repeatCount="indefinite" />
         </circle>
-        <circle cx="500" cy="30" r="1" fill="#fbbf24">
-          <animate attributeName="r" values="0.8;2;0.8" dur="5s" repeatCount="indefinite" />
+        <circle cx="800" cy="900" r="3.5" fill="#fbbf24">
+          <animate attributeName="r" values="2;5;2" dur="5s" repeatCount="indefinite" />
           <animateTransform attributeName="transform" type="translate" 
-            dur="20s" values="0 0; -200 -10; -400 -40; -200 -70; 0 -40; 200 -10; 0 0" 
+            dur="24s" values="0 0; -600 -100; -1200 -400; -600 -700; 0 -400; 600 -100; 0 0" 
             repeatCount="indefinite" />
         </circle>
       </g>
@@ -391,7 +391,7 @@
 
     <!-- Corner shine -->
     <g opacity="0.3">
-      <path d="M960 0 L800 0 C 900 0 960 60 960 160 Z" fill="url(#accent)">
+      <path d="M1536 0 L1280 0 C 1440 0 1536 96 1536 256 Z" fill="url(#accent)">
         <animate attributeName="opacity" values="0.15;0.35;0.15" dur="8s" repeatCount="indefinite" />
       </path>
     </g>
@@ -399,18 +399,18 @@
 
   <!-- Subtle foreground sparkles -->
   <g opacity="0.5">
-    <g transform="translate(220, 520)">
-      <path d="M0 -8 L2 -2 L8 0 L2 2 L0 8 L-2 2 L-8 0 L-2 -2 Z" fill="#a78bfa" opacity="0.7">
+    <g transform="translate(352, 890)">
+      <path d="M0 -12 L3 -3 L12 0 L3 3 L0 12 L-3 3 L-12 0 L-3 -3 Z" fill="#a78bfa" opacity="0.7">
         <animateTransform attributeName="transform" type="rotate" values="0;360" dur="14s" repeatCount="indefinite" />
       </path>
     </g>
-    <g transform="translate(980, 120)">
-      <path d="M0 -6 L1.5 -1.5 L6 0 L1.5 1.5 L0 6 L-1.5 1.5 L-6 0 L-1.5 -1.5 Z" fill="#22d3ee" opacity="0.6">
+    <g transform="translate(1568, 200)">
+      <path d="M0 -9 L2.25 -2.25 L9 0 L2.25 2.25 L0 9 L-2.25 2.25 L-9 0 L-2.25 -2.25 Z" fill="#22d3ee" opacity="0.6">
         <animateTransform attributeName="transform" type="rotate" values="360;0" dur="10s" repeatCount="indefinite" />
       </path>
     </g>
   </g>
 
   <!-- Accessibility: invisible border for better cropping when embedded -->
-  <rect x="0" y="0" width="1200" height="630" fill="none" stroke="none"/>
+  <rect x="0" y="0" width="1920" height="1080" fill="none" stroke="none"/>
 </svg>

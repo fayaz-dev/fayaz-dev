@@ -20,8 +20,7 @@
 
 ✅ 🫡🙇‍♂️ Honerable mention in [Agent.ai Agent building Challenge on dev.to](https://dev.to/devteam/congrats-to-the-agentai-challenge-winners-5eg5)
 
-[![Agent building Challenge](https://github.com/user-attachments/assets/31cc4c46-e32b-4586-a382-46a639393fe3)](https://agent.ai/agent/podcastx)
-
+[![Agent building Challenge](https://github.com/user-attachments/assets/9cda50b3-04b8-43a4-baf5-634bf270df07)](https://agent.ai/agent/podcastx)
  
 
 ## :joy: Fun fact:

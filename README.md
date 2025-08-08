@@ -1,4 +1,4 @@
-![Hello! I'm Fayaz. Developer. Thinker. Problem solver.](media/awesome-developer.svg)
+![Hello! I'm Fayaz. Developer. Thinker. Problem solver.](media/fayaz-dev.svg)
 
 ## :hammer_and_wrench: I’m currently working on:
 

@@ -108,13 +108,13 @@
     <rect x="0.5" y="0.5" width="959" height="409" rx="27.5" ry="27.5" fill="none" stroke="url(#strokeGrad)" stroke-width="1"/>
 
     <!-- Top pill -->
-    <g transform="translate(36, 34)">
+    <g transform="translate(36, 24)">
       <rect x="0" y="0" rx="16" ry="16" width="148" height="36" fill="#ffffff" opacity="0.08" stroke="#ffffff" stroke-opacity="0.25"/>
       <text x="74" y="24" text-anchor="middle" font-family="Inter, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, sans-serif" font-size="16" fill="#c7d2fe" letter-spacing="0.5" style="font-weight:600">fayaz.dev</text>
     </g>
 
     <!-- Headline -->
-    <g transform="translate(36, 110)">
+    <g transform="translate(36, 120)">
       <text x="0" y="0" font-family="Inter, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, sans-serif" font-size="52" style="font-weight:800;" fill="#f8fafc">Developer. Thinker. Problem Solver.</text>
       <rect x="0" y="18" width="520" height="6" rx="3" fill="url(#accent)" opacity="0.65">
         <animate attributeName="width" values="140;520;140" dur="7s" repeatCount="indefinite" />
@@ -122,12 +122,16 @@
     </g>
 
     <!-- Subheadline -->
-    <g transform="translate(36, 180)">
-      <text x="0" y="0" font-family="Inter, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, sans-serif" font-size="22" fill="#cbd5e1" style="font-weight:500">Crafting clean, resilient software with a love for DX and performance.</text>
+    <g transform="translate(36, 200)">
+      <text x="0" y="0" font-family="Inter, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, sans-serif" font-size="22" fill="#cbd5e1" style="font-weight:500">
+        <tspan x="0" dy="0">Currently Experimenting with:</tspan>
+        <tspan x="0" dy="1.4em">🚀 AI Code Generation • 🔧 WordPress Plugin Development</tspan>
+        <tspan x="0" dy="1.4em">📊 JavaScript Data Filtering • ⚡ Machine Learning.</tspan>
+      </text>
     </g>
 
     <!-- Highlights (chips) -->
-    <g transform="translate(36, 240)" font-family="Inter, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, sans-serif" font-size="16" fill="#e2e8f0">
+    <g transform="translate(36, 368)" font-family="Inter, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, sans-serif" font-size="16" fill="#e2e8f0">
       <g>
         <rect x="0" y="-20" rx="14" ry="14" width="140" height="36" fill="#ffffff" opacity="0.07" stroke="#e2e8f0" stroke-opacity="0.15"/>
         <text x="70" y="4" text-anchor="middle">TypeScript • React</text>

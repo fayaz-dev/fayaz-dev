@@ -247,18 +247,18 @@
       
       <!-- JavaScript - Layer 1 (Front) with smooth geometric rotation -->
       <g filter="url(#techGlow)">
-        <!-- Dynamic connection line to center -->
+        <!-- Dynamic connection line to center of tag -->
         <line x1="0" y1="0" stroke="url(#connectionGrad)" stroke-width="3" opacity="0.7">
           <animate attributeName="x2" values="240;169.7;0;-169.7;-240;-169.7;0;169.7;240" dur="24s" repeatCount="indefinite" />
           <animate attributeName="y2" values="0;169.7;240;169.7;0;-169.7;-240;-169.7;0" dur="24s" repeatCount="indefinite" />
         </line>
         <g>
           <!-- Larger, more readable tag -->
-          <rect x="0" y="0" rx="25" ry="25" width="140" height="50" fill="url(#jsGrad)" opacity="0.95"/>
-          <text x="70" y="32" text-anchor="middle" font-size="16" fill="#000" style="font-weight:700">JavaScript</text>
+          <rect x="-70" y="-25" rx="25" ry="25" width="140" height="50" fill="url(#jsGrad)" opacity="0.95"/>
+          <text x="0" y="7" text-anchor="middle" font-size="16" fill="#000" style="font-weight:700">JavaScript</text>
           <!-- Smooth circular orbit using trigonometric functions -->
           <animateTransform attributeName="transform" type="translate" 
-            values="170 -25; 120.2 144.7; -70 215; -190.2 144.7; -240 -25; -190.2 -194.7; -70 -265; 120.2 -194.7; 170 -25"
+            values="240 0; 169.7 169.7; 0 240; -169.7 169.7; -240 0; -169.7 -169.7; 0 -240; 169.7 -169.7; 240 0"
             dur="24s" repeatCount="indefinite" />
           <!-- Perspective scaling for 3D effect -->
           <animateTransform attributeName="transform" type="scale" additive="sum"
@@ -275,11 +275,11 @@
         </line>
         <g>
           <!-- Larger React tag -->
-          <rect x="0" y="0" rx="25" ry="25" width="110" height="50" fill="url(#reactGrad)" opacity="0.95"/>
-          <text x="55" y="32" text-anchor="middle" font-size="16" fill="#000" style="font-weight:700">React</text>
+          <rect x="-55" y="-25" rx="25" ry="25" width="110" height="50" fill="url(#reactGrad)" opacity="0.95"/>
+          <text x="0" y="7" text-anchor="middle" font-size="16" fill="#000" style="font-weight:700">React</text>
           <!-- Smooth circular orbit offset by 45 degrees -->
           <animateTransform attributeName="transform" type="translate" 
-            values="114.7 144.7; -55 215; -175.2 144.7; -225 -25; -175.2 -194.7; -55 -265; 114.7 -194.7; 185 -25; 114.7 144.7"
+            values="169.7 169.7; 0 240; -169.7 169.7; -240 0; -169.7 -169.7; 0 -240; 169.7 -169.7; 240 0; 169.7 169.7"
             dur="24s" repeatCount="indefinite" />
           <!-- 3D perspective scaling -->
           <animateTransform attributeName="transform" type="scale" additive="sum"
@@ -296,11 +296,11 @@
         </line>
         <g>
           <!-- Larger Python tag -->
-          <rect x="0" y="0" rx="25" ry="25" width="120" height="50" fill="url(#pythonGrad)" opacity="0.95"/>
-          <text x="60" y="32" text-anchor="middle" font-size="16" fill="#fff" style="font-weight:700">Python</text>
+          <rect x="-60" y="-25" rx="25" ry="25" width="120" height="50" fill="url(#pythonGrad)" opacity="0.95"/>
+          <text x="0" y="7" text-anchor="middle" font-size="16" fill="#fff" style="font-weight:700">Python</text>
           <!-- Smooth elliptical orbit (larger radius) -->
           <animateTransform attributeName="transform" type="translate" 
-            values="-60 -325; 194.6 -237.1; 300 -25; 194.6 187.1; -60 275; -314.6 187.1; -420 -25; -314.6 -237.1; -60 -325"
+            values="0 -300; 254.6 -212.1; 360 0; 254.6 212.1; 0 300; -254.6 212.1; -360 0; -254.6 -212.1; 0 -300"
             dur="28s" repeatCount="indefinite" />
           <!-- 3D depth scaling -->
           <animateTransform attributeName="transform" type="scale" additive="sum"
@@ -317,11 +317,11 @@
         </line>
         <g>
           <!-- Larger Node.js tag -->
-          <rect x="0" y="0" rx="25" ry="25" width="130" height="50" fill="url(#nodeGrad)" opacity="0.95"/>
-          <text x="65" y="32" text-anchor="middle" font-size="16" fill="#fff" style="font-weight:700">Node.js</text>
+          <rect x="-65" y="-25" rx="25" ry="25" width="130" height="50" fill="url(#nodeGrad)" opacity="0.95"/>
+          <text x="0" y="7" text-anchor="middle" font-size="16" fill="#fff" style="font-weight:700">Node.js</text>
           <!-- Smooth diagonal elliptical orbit -->
           <animateTransform attributeName="transform" type="translate" 
-            values="-277.1 -237.1; -365 -25; -277.1 187.1; -65 275; 147.1 187.1; 235 -25; 147.1 -237.1; -65 -325; -277.1 -237.1"
+            values="-212.1 -212.1; -300 0; -212.1 212.1; 0 300; 212.1 212.1; 300 0; 212.1 -212.1; 0 -300; -212.1 -212.1"
             dur="26s" repeatCount="indefinite" />
           <!-- 3D depth scaling -->
           <animateTransform attributeName="transform" type="scale" additive="sum"
@@ -338,11 +338,11 @@
         </line>
         <g>
           <!-- Larger PHP tag -->
-          <rect x="0" y="0" rx="25" ry="25" width="100" height="45" fill="url(#phpGrad)" opacity="0.8"/>
-          <text x="50" y="28" text-anchor="middle" font-size="15" fill="#fff" style="font-weight:700">PHP</text>
+          <rect x="-50" y="-22.5" rx="25" ry="25" width="100" height="45" fill="url(#phpGrad)" opacity="0.8"/>
+          <text x="0" y="3.5" text-anchor="middle" font-size="15" fill="#fff" style="font-weight:700">PHP</text>
           <!-- Smooth horizontal elliptical orbit -->
           <animateTransform attributeName="transform" type="translate" 
-            values="-50 -22.5; -230 32.9; -304.6 -22.5; -230 -78.0; -50 -22.5; 130 32.9; 204.6 -22.5; 130 -78.0; -50 -22.5"
+            values="0 0; -180 55.4; -254.6 0; -180 -55.4; 0 0; 180 55.4; 254.6 0; 180 -55.4; 0 0"
             dur="22s" repeatCount="indefinite" />
           <!-- Back layer scaling (smaller when behind) -->
           <animateTransform attributeName="transform" type="scale" additive="sum"
@@ -359,11 +359,11 @@
         </line>
         <g>
           <!-- Larger WordPress tag -->
-          <rect x="0" y="0" rx="25" ry="25" width="150" height="45" fill="url(#wpGrad)" opacity="0.8"/>
-          <text x="75" y="28" text-anchor="middle" font-size="18" fill="#fff" style="font-weight:700">WordPress</text>
+          <rect x="-75" y="-22.5" rx="25" ry="25" width="150" height="45" fill="url(#wpGrad)" opacity="0.8"/>
+          <text x="0" y="5.5" text-anchor="middle" font-size="18" fill="#fff" style="font-weight:700">WordPress</text>
           <!-- Smooth lower elliptical orbit -->
           <animateTransform attributeName="transform" type="translate" 
-            values="52.3 104.8; 9.9 104.8; -75 118.9; -159.9 104.8; -202.3 104.8; -159.9 104.8; -75 118.9; 9.9 104.8; 52.3 104.8"
+            values="127.3 127.3; 84.9 127.3; 0 141.4; -84.9 127.3; -127.3 127.3; -84.9 127.3; 0 141.4; 84.9 127.3; 127.3 127.3"
             dur="20s" repeatCount="indefinite" />
           <!-- Back layer scaling -->
           <animateTransform attributeName="transform" type="scale" additive="sum"
@@ -380,11 +380,11 @@
         </line>
         <g>
           <!-- Larger AI tag -->
-          <rect x="0" y="0" rx="30" ry="30" width="80" height="45" fill="url(#aiGrad)" opacity="0.95"/>
-          <text x="40" y="28" text-anchor="middle" font-size="16" fill="#fff" style="font-weight:700">AI</text>
+          <rect x="-40" y="-22.5" rx="30" ry="30" width="80" height="45" fill="url(#aiGrad)" opacity="0.95"/>
+          <text x="0" y="5.5" text-anchor="middle" font-size="16" fill="#fff" style="font-weight:700">AI</text>
           <!-- Smooth octagonal orbit -->
           <animateTransform attributeName="transform" type="translate" 
-            values="-40 -202.5; 87.3 -149.8; 140 -22.5; 87.3 104.8; -40 157.5; -167.3 104.8; -220 -22.5; -167.3 -149.8; -40 -202.5"
+            values="0 -180; 127.3 -127.3; 180 0; 127.3 127.3; 0 180; -127.3 127.3; -180 0; -127.3 -127.3; 0 -180"
             dur="18s" repeatCount="indefinite" />
           <!-- Dynamic scaling with rotation -->
           <animateTransform attributeName="transform" type="rotate" additive="sum"
@@ -403,11 +403,11 @@
         </line>
         <g>
           <!-- Larger CSS tag -->
-          <rect x="0" y="0" rx="20" ry="20" width="90" height="40" fill="#1572b6" opacity="0.85"/>
-          <text x="45" y="26" text-anchor="middle" font-size="14" fill="#fff" style="font-weight:700">CSS</text>
+          <rect x="-45" y="-20" rx="20" ry="20" width="90" height="40" fill="#1572b6" opacity="0.85"/>
+          <text x="0" y="6" text-anchor="middle" font-size="14" fill="#fff" style="font-weight:700">CSS</text>
           <!-- Large circular orbit -->
           <animateTransform attributeName="transform" type="translate" 
-            values="273 -20; 179.8 204.8; -45 298; -269.8 204.8; -363 -20; -269.8 -244.8; -45 -338; 179.8 -244.8; 273 -20"
+            values="318 0; 224.8 224.8; 0 318; -224.8 224.8; -318 0; -224.8 -224.8; 0 -318; 224.8 -224.8; 318 0"
             dur="30s" repeatCount="indefinite" />
           <!-- Outer layer scaling -->
           <animateTransform attributeName="transform" type="scale" additive="sum"

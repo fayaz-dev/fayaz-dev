@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Animated SVG for Fayaz — Developer. Thinker. Problem Solver.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc" width="1200" height="400" preserveAspectRatio="xMidYMid meet">
+  <title id="title">Fayaz — Developer. Thinker. Problem Solver.</title>
+  <desc id="desc">Animated hero banner showing name, tagline, skills, and current focus with subtle motion, gradients, and badges.</desc>
+
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="0%" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0e1117"/>
+      <stop offset="50%" stop-color="#141a23"/>
+      <stop offset="100%" stop-color="#0e1117"/>
+      <animate attributeName="x1" values="0%;-50%;0%" dur="16s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="100%;150%;100%" dur="16s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <!-- Accent gradient for title text -->
+    <linearGradient id="accentGradient" x1="0%" y1="0" x2="100%" y2="0">
+      <stop offset="0%" stop-color="#35c759"/>
+      <stop offset="50%" stop-color="#00d4ff"/>
+      <stop offset="100%" stop-color="#7b61ff"/>
+      <animate attributeName="x1" values="0%;25%;0%" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="100%;125%;100%" dur="10s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <!-- Soft glow filter for title -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Subtle grid pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" opacity="0.05" stroke-width="1"/>
+    </pattern>
+
+    <!-- Badge colors as gradients for a soft sheen -->
+    <linearGradient id="g-js" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7df1e"/>
+      <stop offset="100%" stop-color="#ffe873"/>
+    </linearGradient>
+    <linearGradient id="g-php" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#777bb4"/>
+      <stop offset="100%" stop-color="#a6a9d3"/>
+    </linearGradient>
+    <linearGradient id="g-wp" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#21759b"/>
+      <stop offset="100%" stop-color="#2ea3c6"/>
+    </linearGradient>
+    <linearGradient id="g-node" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3c873a"/>
+      <stop offset="100%" stop-color="#5fa65a"/>
+    </linearGradient>
+    <linearGradient id="g-ubuntu" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e95420"/>
+      <stop offset="100%" stop-color="#ff7b4a"/>
+    </linearGradient>
+    <linearGradient id="g-vscode" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#007acc"/>
+      <stop offset="100%" stop-color="#4fb3ff"/>
+    </linearGradient>
+
+    <!-- Rounded rectangle reusable symbol for badges -->
+    <symbol id="badge" viewBox="0 0 180 36" overflow="visible">
+      <rect x="0" y="0" rx="18" ry="18" width="180" height="36" fill="#222" opacity="0.25"/>
+      <rect x="1" y="1" rx="17" ry="17" width="178" height="34" fill="currentColor" opacity="0.9"/>
+    </symbol>
+
+    <!-- Wave at bottom -->
+    <linearGradient id="waveGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00d4ff" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#7b61ff" stop-opacity="0.15"/>
+    </linearGradient>
+
+    <!-- Clip for typewriter effect -->
+    <clipPath id="typeClip">
+      <rect id="typeRect" x="80" y="140" width="0" height="40"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    :root { color-scheme: dark; }
+    .bg { shape-rendering: crispEdges; }
+    text { font-family: Inter, Segoe UI, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif; }
+    .title { font-weight: 800; font-size: 86px; letter-spacing: 1px; fill: url(#accentGradient); filter: url(#glow); }
+    .subtitle { font-weight: 600; font-size: 28px; fill: #e6edf3; opacity: 0.95; }
+    .small { font-size: 16px; fill: #c9d1d9; }
+    .muted { fill: #9aa4af; }
+    .badgeText { font-size: 16px; font-weight: 700; fill: #0e1117; }
+    .chip { filter: drop-shadow(0 3px 6px rgba(0,0,0,.35)); }
+    .link { text-decoration: none; }
+    .cursor { fill: #e6edf3; }
+  </style>
+
+  <!-- Background -->
+  <rect class="bg" x="0" y="0" width="1200" height="400" fill="url(#bgGradient)"/>
+  <rect x="0" y="0" width="1200" height="400" fill="url(#grid)">
+    <animate attributeName="x" values="0;-40;0" dur="20s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Decorative stars -->
+  <g opacity="0.6">
+    <circle cx="1100" cy="60" r="2" fill="#9ecbff">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="100" cy="80" r="1.6" fill="#c9d1d9">
+      <animate attributeName="opacity" values="0.2;0.8;0.2" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="950" cy="320" r="1.8" fill="#baffc9">
+      <animate attributeName="opacity" values="0.2;0.9;0.2" dur="5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Title -->
+  <text class="title" x="72" y="120">Fayaz</text>
+
+  <!-- Subtitle with typewriter effect -->
+  <g clip-path="url(#typeClip)">
+    <text class="subtitle" x="80" y="170">Developer. Thinker. Problem Solver.</text>
+  </g>
+  <!-- Animated clipping rectangle expanding to reveal subtitle -->
+  <animate xlink:href="#typeRect" attributeName="width" values="0;520;520;0" keyTimes="0;0.2;0.8;1" dur="8s" repeatCount="indefinite"/>
+  <!-- Blinking cursor traveling with typing -->
+  <rect class="cursor" x="80" y="140" width="14" height="38" rx="2" ry="2" opacity="0.9">
+    <animate attributeName="x" values="80;600;600;80" keyTimes="0;0.2;0.8;1" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;0" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Floating skill badges -->
+  <g transform="translate(76,210)">
+    <g class="chip" transform="translate(0,0)" style="color:url(#g-js)">
+      <use href="#badge"/>
+      <text class="badgeText" x="18" y="24">JavaScript</text>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-6; 0,0" dur="6s" repeatCount="indefinite"/>
+    </g>
+    <g class="chip" transform="translate(196,0)" style="color:url(#g-php)">
+      <use href="#badge"/>
+      <text class="badgeText" x="26" y="24">PHP</text>
+      <animateTransform attributeName="transform" type="translate" values="196,0; 196,-3; 196,0" dur="7s" repeatCount="indefinite"/>
+    </g>
+    <g class="chip" transform="translate(372,0)" style="color:url(#g-wp)">
+      <use href="#badge"/>
+      <text class="badgeText" x="22" y="24">WordPress</text>
+      <animateTransform attributeName="transform" type="translate" values="372,0; 372,-5; 372,0" dur="5.5s" repeatCount="indefinite"/>
+    </g>
+  </g>
+  <g transform="translate(76,256)">
+    <g class="chip" transform="translate(0,0)" style="color:url(#g-node)">
+      <use href="#badge"/>
+      <text class="badgeText" x="26" y="24">Node.js</text>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-4; 0,0" dur="6.5s" repeatCount="indefinite"/>
+    </g>
+    <g class="chip" transform="translate(196,0)" style="color:url(#g-ubuntu)">
+      <use href="#badge"/>
+      <text class="badgeText" x="26" y="24">Ubuntu</text>
+      <animateTransform attributeName="transform" type="translate" values="196,0; 196,-2; 196,0" dur="7.5s" repeatCount="indefinite"/>
+    </g>
+    <g class="chip" transform="translate(372,0)" style="color:url(#g-vscode)">
+      <use href="#badge"/>
+      <text class="badgeText" x="20" y="24">VS Code</text>
+      <animateTransform attributeName="transform" type="translate" values="372,0; 372,-3; 372,0" dur="6.2s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <!-- Scrolling ticker: current experiments -->
+  <g>
+    <clipPath id="tickerClip"><rect x="720" y="78" width="430" height="40"/></clipPath>
+    <g clip-path="url(#tickerClip)">
+      <g id="ticker" transform="translate(1160,102)">
+        <text class="small muted" y="0">Currently: Experimenting with AI Code Generation • WordPress Plugin • JavaScript Data Filtering</text>
+        <animateTransform attributeName="transform" type="translate" from="1160 102" to="700 102" dur="12s" repeatCount="indefinite"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Contact links -->
+  <g transform="translate(76,320)" class="small">
+    <a class="link" xlink:href="mailto:mail@fayaz.dev" target="_blank" rel="noopener noreferrer">
+      <text fill="#c9d1d9">✉ mail@fayaz.dev</text>
+    </a>
+    <a class="link" xlink:href="https://fayaz.dev/" target="_blank" rel="noopener noreferrer">
+      <text x="210" fill="#9ecbff">🌐 fayaz.dev</text>
+    </a>
+    <a class="link" xlink:href="https://x.com/FayazDev" target="_blank" rel="noopener noreferrer">
+      <text x="470" fill="#8b949e">𝕏 @FayazDev</text>
+    </a>
+  </g>
+
+  <!-- Bottom wave -->
+  <path d="M0,360 C200,330 300,380 500,360 C720,335 840,385 1200,360 L1200,400 L0,400 Z" fill="url(#waveGrad)">
+    <animate attributeName="d" dur="10s" repeatCount="indefinite"
+      values="M0,360 C200,330 300,380 500,360 C720,335 840,385 1200,360 L1200,400 L0,400 Z;
+              M0,360 C220,345 320,365 520,355 C700,330 860,390 1200,360 L1200,400 L0,400 Z;
+              M0,360 C200,330 300,380 500,360 C720,335 840,385 1200,360 L1200,400 L0,400 Z"/>
+  </path>
+
+  <!-- Footer note -->
+  <text x="1180" y="390" text-anchor="end" class="small muted">♾️ Perpetual learner • BSc. CSE </text>
+</svg>

@@ -1,4 +1,4 @@
-![Hello! I'm Fayaz. Wev Developer since 2006](media/hello-dev.gif?raw=true "Hello! I'm Fayaz. Wev Developer since 2006")
+![Hello! I'm Fayaz. Developer. Thinker. Problem solver.](media/awesome-developer.svg)
 
 ## :hammer_and_wrench: I’m currently working on:
 

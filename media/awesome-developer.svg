@@ -1,204 +1,465 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  Animated SVG for Fayaz — Developer. Thinker. Problem Solver.
+  🚀 AWESOME Animated SVG for Fayaz — Developer. Thinker. Problem Solver.
+  Enhanced with beautiful animations, advanced effects, and stunning visuals
 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc" width="1200" height="400" preserveAspectRatio="xMidYMid meet">
   <title id="title">Fayaz — Developer. Thinker. Problem Solver.</title>
-  <desc id="desc">Animated hero banner showing name, tagline, skills, and current focus with subtle motion, gradients, and badges.</desc>
+  <desc id="desc">Spectacular animated hero banner with advanced effects, particle systems, dynamic typography, and mesmerizing visual elements.</desc>
 
   <defs>
-    <!-- Background gradient -->
-    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="0%" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#0e1117"/>
-      <stop offset="50%" stop-color="#141a23"/>
-      <stop offset="100%" stop-color="#0e1117"/>
-      <animate attributeName="x1" values="0%;-50%;0%" dur="16s" repeatCount="indefinite"/>
-      <animate attributeName="x2" values="100%;150%;100%" dur="16s" repeatCount="indefinite"/>
+    <!-- Advanced Background Gradients with Multiple Animations -->
+    <radialGradient id="bgRadial" cx="50%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#1a1b26"/>
+      <stop offset="30%" stop-color="#24283b"/>
+      <stop offset="70%" stop-color="#1f2335"/>
+      <stop offset="100%" stop-color="#0d0e14"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" values="0 600 200;360 600 200" dur="30s" repeatCount="indefinite"/>
+    </radialGradient>
+
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0a0a0f">
+        <animate attributeName="stop-color" values="#0a0a0f;#1a1b26;#0a0a0f" dur="20s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="25%" stop-color="#1f2335">
+        <animate attributeName="stop-color" values="#1f2335;#414868;#1f2335" dur="18s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="75%" stop-color="#24283b">
+        <animate attributeName="stop-color" values="#24283b;#565f89;#24283b" dur="22s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#0d0e14">
+        <animate attributeName="stop-color" values="#0d0e14;#1a1b26;#0d0e14" dur="25s" repeatCount="indefinite"/>
+      </stop>
+      <animate attributeName="x1" values="0%;-50%;100%;0%" dur="16s" repeatCount="indefinite"/>
+      <animate attributeName="y1" values="0%;100%;-50%;0%" dur="20s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="100%;150%;50%;100%" dur="16s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="100%;50%;150%;100%" dur="20s" repeatCount="indefinite"/>
     </linearGradient>
 
-    <!-- Accent gradient for title text -->
-    <linearGradient id="accentGradient" x1="0%" y1="0" x2="100%" y2="0">
-      <stop offset="0%" stop-color="#35c759"/>
-      <stop offset="50%" stop-color="#00d4ff"/>
-      <stop offset="100%" stop-color="#7b61ff"/>
-      <animate attributeName="x1" values="0%;25%;0%" dur="10s" repeatCount="indefinite"/>
-      <animate attributeName="x2" values="100%;125%;100%" dur="10s" repeatCount="indefinite"/>
+    <!-- Spectacular Title Gradient with Rainbow Animation -->
+    <linearGradient id="titleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff006e">
+        <animate attributeName="stop-color" values="#ff006e;#8338ec;#3a86ff;#06ffa5;#ffbe0b;#ff006e" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="25%" stop-color="#8338ec">
+        <animate attributeName="stop-color" values="#8338ec;#3a86ff;#06ffa5;#ffbe0b;#ff006e;#8338ec" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#3a86ff">
+        <animate attributeName="stop-color" values="#3a86ff;#06ffa5;#ffbe0b;#ff006e;#8338ec;#3a86ff" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="75%" stop-color="#06ffa5">
+        <animate attributeName="stop-color" values="#06ffa5;#ffbe0b;#ff006e;#8338ec;#3a86ff;#06ffa5" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#ffbe0b">
+        <animate attributeName="stop-color" values="#ffbe0b;#ff006e;#8338ec;#3a86ff;#06ffa5;#ffbe0b" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <animateTransform attributeName="gradientTransform" type="translate" values="0 0;50 0;-50 0;0 0" dur="10s" repeatCount="indefinite"/>
     </linearGradient>
 
-    <!-- Soft glow filter for title -->
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur"/>
+    <!-- Enhanced Glow Effects -->
+    <filter id="megaGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur1"/>
+      <feGaussianBlur in="SourceGraphic" stdDeviation="12" result="blur2"/>
+      <feGaussianBlur in="SourceGraphic" stdDeviation="20" result="blur3"/>
+      <feMerge>
+        <feMergeNode in="blur3"/>
+        <feMergeNode in="blur2"/>
+        <feMergeNode in="blur1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="textGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="blur"/>
+      <feColorMatrix in="blur" type="saturate" values="3"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
 
-    <!-- Subtle grid pattern -->
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#ffffff" opacity="0.05" stroke-width="1"/>
+    <!-- Advanced Grid Pattern with Animation -->
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0H0V60" fill="none" stroke="#7c3aed" stroke-width="0.5" opacity="0.15">
+        <animate attributeName="opacity" values="0.05;0.25;0.05" dur="4s" repeatCount="indefinite"/>
+      </path>
+      <circle cx="30" cy="30" r="1" fill="#06ffa5" opacity="0.3">
+        <animate attributeName="opacity" values="0.1;0.6;0.1" dur="6s" repeatCount="indefinite"/>
+      </circle>
     </pattern>
 
-    <!-- Badge colors as gradients for a soft sheen -->
-    <linearGradient id="g-js" x1="0" y1="0" x2="1" y2="1">
+    <!-- Particle System Gradients -->
+    <radialGradient id="particle1">
+      <stop offset="0%" stop-color="#06ffa5" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#06ffa5" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="particle2">
+      <stop offset="0%" stop-color="#3a86ff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#3a86ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="particle3">
+      <stop offset="0%" stop-color="#ff006e" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#ff006e" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Enhanced Badge Gradients with Animation -->
+    <linearGradient id="g-js" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#f7df1e"/>
-      <stop offset="100%" stop-color="#ffe873"/>
+      <stop offset="50%" stop-color="#ffed4e"/>
+      <stop offset="100%" stop-color="#f39c12"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" values="0 90 18;360 90 18" dur="15s" repeatCount="indefinite"/>
     </linearGradient>
-    <linearGradient id="g-php" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="g-php" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#777bb4"/>
-      <stop offset="100%" stop-color="#a6a9d3"/>
+      <stop offset="50%" stop-color="#9b59b6"/>
+      <stop offset="100%" stop-color="#8e44ad"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" values="0 90 18;360 90 18" dur="18s" repeatCount="indefinite"/>
     </linearGradient>
-    <linearGradient id="g-wp" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="g-wp" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#21759b"/>
-      <stop offset="100%" stop-color="#2ea3c6"/>
+      <stop offset="50%" stop-color="#3498db"/>
+      <stop offset="100%" stop-color="#2980b9"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" values="0 90 18;360 90 18" dur="12s" repeatCount="indefinite"/>
     </linearGradient>
-    <linearGradient id="g-node" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="g-node" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#3c873a"/>
-      <stop offset="100%" stop-color="#5fa65a"/>
+      <stop offset="50%" stop-color="#27ae60"/>
+      <stop offset="100%" stop-color="#2ecc71"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" values="0 90 18;360 90 18" dur="20s" repeatCount="indefinite"/>
     </linearGradient>
-    <linearGradient id="g-ubuntu" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="g-ubuntu" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#e95420"/>
-      <stop offset="100%" stop-color="#ff7b4a"/>
+      <stop offset="50%" stop-color="#e74c3c"/>
+      <stop offset="100%" stop-color="#c0392b"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" values="0 90 18;360 90 18" dur="16s" repeatCount="indefinite"/>
     </linearGradient>
-    <linearGradient id="g-vscode" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="g-vscode" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#007acc"/>
-      <stop offset="100%" stop-color="#4fb3ff"/>
+      <stop offset="50%" stop-color="#0099e5"/>
+      <stop offset="100%" stop-color="#005a9e"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" values="0 90 18;360 90 18" dur="14s" repeatCount="indefinite"/>
     </linearGradient>
 
-    <!-- Rounded rectangle reusable symbol for badges -->
+    <!-- Enhanced Badge Symbol with Glow -->
     <symbol id="badge" viewBox="0 0 180 36" overflow="visible">
-      <rect x="0" y="0" rx="18" ry="18" width="180" height="36" fill="#222" opacity="0.25"/>
-      <rect x="1" y="1" rx="17" ry="17" width="178" height="34" fill="currentColor" opacity="0.9"/>
+      <rect x="0" y="0" rx="18" ry="18" width="180" height="36" fill="#000" opacity="0.4"/>
+      <rect x="1" y="1" rx="17" ry="17" width="178" height="34" fill="currentColor" opacity="0.95" filter="url(#textGlow)"/>
+      <rect x="1" y="1" rx="17" ry="17" width="178" height="34" fill="none" stroke="currentColor" stroke-width="1" opacity="0.6"/>
     </symbol>
 
-    <!-- Wave at bottom -->
-    <linearGradient id="waveGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#00d4ff" stop-opacity="0.15"/>
-      <stop offset="100%" stop-color="#7b61ff" stop-opacity="0.15"/>
+    <!-- Dynamic Wave Gradients -->
+    <linearGradient id="waveGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06ffa5" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#3a86ff" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#8338ec" stop-opacity="0.3"/>
+      <animate attributeName="x1" values="0%;100%;0%" dur="15s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="100%;200%;100%" dur="15s" repeatCount="indefinite"/>
     </linearGradient>
 
-    <!-- Clip for typewriter effect -->
+    <linearGradient id="waveGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff006e" stop-opacity="0.2"/>
+      <stop offset="50%" stop-color="#ffbe0b" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#ff006e" stop-opacity="0.2"/>
+      <animate attributeName="x1" values="100%;0%;100%" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="200%;100%;200%" dur="12s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <!-- Advanced Typewriter Clip -->
     <clipPath id="typeClip">
       <rect id="typeRect" x="80" y="140" width="0" height="40"/>
     </clipPath>
+
+    <!-- Code Decoration Gradients -->
+    <linearGradient id="codeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06ffa5" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#3a86ff" stop-opacity="0.6"/>
+    </linearGradient>
   </defs>
 
   <style>
     :root { color-scheme: dark; }
     .bg { shape-rendering: crispEdges; }
-    text { font-family: Inter, Segoe UI, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif; }
-    .title { font-weight: 800; font-size: 86px; letter-spacing: 1px; fill: url(#accentGradient); filter: url(#glow); }
-    .subtitle { font-weight: 600; font-size: 28px; fill: #e6edf3; opacity: 0.95; }
-    .small { font-size: 16px; fill: #c9d1d9; }
-    .muted { fill: #9aa4af; }
-    .badgeText { font-size: 16px; font-weight: 700; fill: #0e1117; }
-    .chip { filter: drop-shadow(0 3px 6px rgba(0,0,0,.35)); }
-    .link { text-decoration: none; }
-    .cursor { fill: #e6edf3; }
+    
+    /* Enhanced Typography */
+    text { 
+      font-family: 'SF Pro Display', 'Segoe UI Variable', Inter, 'Helvetica Neue', Ubuntu, Cantarell, system-ui, sans-serif; 
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+    
+    /* Spectacular Title with Multiple Effects */
+    .title { 
+      font-weight: 900; 
+      font-size: 92px; 
+      letter-spacing: -2px; 
+      fill: url(#titleGradient); 
+      filter: url(#megaGlow);
+      text-shadow: 0 0 20px currentColor;
+    }
+    
+    /* Enhanced Subtitle */
+    .subtitle { 
+      font-weight: 700; 
+      font-size: 32px; 
+      fill: #e2e8f0; 
+      opacity: 0.98; 
+      filter: url(#textGlow);
+      letter-spacing: 0.5px;
+    }
+    
+    /* Refined Typography Styles */
+    .small { 
+      font-size: 18px; 
+      fill: #cbd5e1; 
+      font-weight: 600;
+    }
+    .muted { 
+      fill: #94a3b8; 
+      opacity: 0.9;
+    }
+    .badgeText { 
+      font-size: 16px; 
+      font-weight: 800; 
+      fill: #1e293b; 
+      text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    }
+    
+    /* Enhanced Effects */
+    .chip { 
+      filter: drop-shadow(0 8px 16px rgba(0,0,0,0.4)) drop-shadow(0 0 20px currentColor);
+    }
+    .link { 
+      text-decoration: none; 
+      transition: all 0.3s ease;
+    }
+    .cursor { 
+      fill: #06ffa5; 
+      filter: url(#textGlow);
+    }
+    
+    /* Code Elements */
+    .code { 
+      font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Roboto Mono', 'Courier New', monospace;
+      font-size: 14px;
+      fill: url(#codeGrad);
+    }
+    
+    /* Particle Effects */
+    .particle { 
+      opacity: 0.8;
+    }
   </style>
 
-  <!-- Background -->
-  <rect class="bg" x="0" y="0" width="1200" height="400" fill="url(#bgGradient)"/>
-  <rect x="0" y="0" width="1200" height="400" fill="url(#grid)">
-    <animate attributeName="x" values="0;-40;0" dur="20s" repeatCount="indefinite"/>
+  <!-- Spectacular Layered Background -->
+  <rect class="bg" x="0" y="0" width="1200" height="400" fill="url(#bgRadial)"/>
+  <rect class="bg" x="0" y="0" width="1200" height="400" fill="url(#bgGradient)" opacity="0.8"/>
+  <rect x="0" y="0" width="1200" height="400" fill="url(#grid)" opacity="0.7">
+    <animateTransform attributeName="transform" type="translate" values="0 0;-60 -60;0 0" dur="25s" repeatCount="indefinite"/>
   </rect>
 
-  <!-- Decorative stars -->
-  <g opacity="0.6">
-    <circle cx="1100" cy="60" r="2" fill="#9ecbff">
-      <animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite"/>
+  <!-- Advanced Particle System -->
+  <g class="particle" opacity="0.6">
+    <!-- Layer 1: Large floating particles -->
+    <circle cx="200" cy="100" r="3" fill="url(#particle1)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;30 -20;-15 25;0 0" dur="15s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="8s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="100" cy="80" r="1.6" fill="#c9d1d9">
-      <animate attributeName="opacity" values="0.2;0.8;0.2" dur="4s" repeatCount="indefinite"/>
+    <circle cx="900" cy="80" r="4" fill="url(#particle2)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;-25 15;40 -10;0 0" dur="18s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;0.9;0.2" dur="6s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="950" cy="320" r="1.8" fill="#baffc9">
-      <animate attributeName="opacity" values="0.2;0.9;0.2" dur="5s" repeatCount="indefinite"/>
+    <circle cx="1050" cy="150" r="2.5" fill="url(#particle3)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;-35 30;20 -25;0 0" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Layer 2: Medium particles -->
+    <circle cx="150" cy="200" r="2" fill="url(#particle1)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;20 -30;-10 15;0 0" dur="20s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;0.8;0.2" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="800" cy="250" r="3" fill="url(#particle2)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;-30 20;25 -15;0 0" dur="16s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;0.9;0.3" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1100" cy="300" r="2" fill="url(#particle3)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;15 -20;-25 10;0 0" dur="14s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;0.7;0.2" dur="11s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Layer 3: Small ambient particles -->
+    <circle cx="300" cy="120" r="1.5" fill="url(#particle1)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;10 -15;-5 8;0 0" dur="22s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.1;0.6;0.1" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="700" cy="180" r="1" fill="url(#particle2)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;-12 18;8 -12;0 0" dur="19s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;0.5;0.2" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="500" cy="320" r="1.2" fill="url(#particle3)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;8 -10;-15 5;0 0" dur="17s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.1;0.4;0.1" dur="8s" repeatCount="indefinite"/>
     </circle>
   </g>
 
-  <!-- Title -->
-  <text class="title" x="72" y="120">Fayaz</text>
+  <!-- Code Decoration Elements -->
+  <g opacity="0.3" class="code">
+    <text x="50" y="50" transform="rotate(-15 50 50)">&lt;/&gt;</text>
+    <text x="1100" y="50" transform="rotate(10 1100 50)">{ }</text>
+    <text x="100" y="350" transform="rotate(5 100 350)">console.log();</text>
+    <text x="1050" y="350" transform="rotate(-8 1050 350)">npm install</text>
+    
+    <!-- Animated code snippets -->
+    <text x="950" y="200" opacity="0.4">
+      <tspan>function() {</tspan>
+      <animate attributeName="opacity" values="0.2;0.6;0.2" dur="4s" repeatCount="indefinite"/>
+    </text>
+    <text x="1000" y="220" opacity="0.4">
+      <tspan>  return awesome;</tspan>
+      <animate attributeName="opacity" values="0.2;0.6;0.2" dur="4s" begin="1s" repeatCount="indefinite"/>
+    </text>
+    <text x="970" y="240" opacity="0.4">
+      <tspan>}</tspan>
+      <animate attributeName="opacity" values="0.2;0.6;0.2" dur="4s" begin="2s" repeatCount="indefinite"/>
+    </text>
+  </g>
 
-  <!-- Subtitle with typewriter effect -->
+  <!-- Spectacular Animated Title -->
+  <text class="title" x="72" y="120">
+    <tspan>Fayaz</tspan>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -2;0 0" dur="4s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Enhanced Subtitle with Advanced Typewriter Effect -->
   <g clip-path="url(#typeClip)">
     <text class="subtitle" x="80" y="170">Developer. Thinker. Problem Solver.</text>
   </g>
-  <!-- Animated clipping rectangle expanding to reveal subtitle -->
-  <animate xlink:href="#typeRect" attributeName="width" values="0;520;520;0" keyTimes="0;0.2;0.8;1" dur="8s" repeatCount="indefinite"/>
-  <!-- Blinking cursor traveling with typing -->
-  <rect class="cursor" x="80" y="140" width="14" height="38" rx="2" ry="2" opacity="0.9">
-    <animate attributeName="x" values="80;600;600;80" keyTimes="0;0.2;0.8;1" dur="8s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0;1;0" dur="1s" repeatCount="indefinite"/>
+  
+  <!-- Multi-stage typewriter animation -->
+  <animate xlink:href="#typeRect" attributeName="width" 
+    values="0;140;140;260;260;420;420;520;520;0" 
+    keyTimes="0;0.15;0.25;0.35;0.45;0.55;0.65;0.75;0.9;1" 
+    dur="10s" repeatCount="indefinite"/>
+  
+  <!-- Enhanced animated cursor with color transitions -->
+  <rect class="cursor" x="80" y="140" width="3" height="38" rx="2" ry="2" opacity="0.9">
+    <animate attributeName="x" values="80;220;220;360;360;500;500;600;600;80" 
+      keyTimes="0;0.15;0.25;0.35;0.45;0.55;0.65;0.75;0.9;1" 
+      dur="10s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;0" dur="0.8s" repeatCount="indefinite"/>
+    <animate attributeName="fill" values="#06ffa5;#3a86ff;#ff006e;#06ffa5" dur="3s" repeatCount="indefinite"/>
   </rect>
 
-  <!-- Floating skill badges -->
+  <!-- Enhanced Floating Skill Badges with Advanced Animations -->
   <g transform="translate(76,210)">
     <g class="chip" transform="translate(0,0)" style="color:url(#g-js)">
       <use href="#badge"/>
       <text class="badgeText" x="18" y="24">JavaScript</text>
-      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-6; 0,0" dur="6s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-8; 2,-6; 0,0" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3s" repeatCount="indefinite"/>
     </g>
     <g class="chip" transform="translate(196,0)" style="color:url(#g-php)">
       <use href="#badge"/>
-      <text class="badgeText" x="26" y="24">PHP</text>
-      <animateTransform attributeName="transform" type="translate" values="196,0; 196,-3; 196,0" dur="7s" repeatCount="indefinite"/>
+      <text class="badgeText" x="35" y="24">PHP</text>
+      <animateTransform attributeName="transform" type="translate" values="196,0; 194,-5; 198,-3; 196,0" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="4s" repeatCount="indefinite"/>
     </g>
-    <g class="chip" transform="translate(372,0)" style="color:url(#g-wp)">
+    <g class="chip" transform="translate(300,0)" style="color:url(#g-wp)">
       <use href="#badge"/>
       <text class="badgeText" x="22" y="24">WordPress</text>
-      <animateTransform attributeName="transform" type="translate" values="372,0; 372,-5; 372,0" dur="5.5s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="300,0; 298,-7; 302,-4; 300,0" dur="5.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.5s" repeatCount="indefinite"/>
     </g>
   </g>
+  
   <g transform="translate(76,256)">
     <g class="chip" transform="translate(0,0)" style="color:url(#g-node)">
       <use href="#badge"/>
       <text class="badgeText" x="26" y="24">Node.js</text>
-      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-4; 0,0" dur="6.5s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0,0; -2,-6; 1,-4; 0,0" dur="6.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="2.8s" repeatCount="indefinite"/>
     </g>
     <g class="chip" transform="translate(196,0)" style="color:url(#g-ubuntu)">
       <use href="#badge"/>
       <text class="badgeText" x="26" y="24">Ubuntu</text>
-      <animateTransform attributeName="transform" type="translate" values="196,0; 196,-2; 196,0" dur="7.5s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="196,0; 194,-3; 197,-5; 196,0" dur="7.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="4.2s" repeatCount="indefinite"/>
     </g>
-    <g class="chip" transform="translate(372,0)" style="color:url(#g-vscode)">
+    <g class="chip" transform="translate(300,0)" style="color:url(#g-vscode)">
       <use href="#badge"/>
       <text class="badgeText" x="20" y="24">VS Code</text>
-      <animateTransform attributeName="transform" type="translate" values="372,0; 372,-3; 372,0" dur="6.2s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="300,0; 302,-4; 299,-6; 300,0" dur="6.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3.7s" repeatCount="indefinite"/>
     </g>
   </g>
 
-  <!-- Scrolling ticker: current experiments -->
+  <!-- Enhanced Scrolling Ticker with Glow Effects -->
   <g>
-    <clipPath id="tickerClip"><rect x="720" y="78" width="430" height="40"/></clipPath>
+    <clipPath id="tickerClip"><rect x="720" y="78" width="430" height="40" rx="5"/></clipPath>
+    <rect x="720" y="78" width="430" height="40" rx="5" fill="none" stroke="url(#codeGrad)" stroke-width="1" opacity="0.3"/>
     <g clip-path="url(#tickerClip)">
       <g id="ticker" transform="translate(1160,102)">
-        <text class="small muted" y="0">Currently: Experimenting with AI Code Generation • WordPress Plugin • JavaScript Data Filtering</text>
-        <animateTransform attributeName="transform" type="translate" from="1160 102" to="700 102" dur="12s" repeatCount="indefinite"/>
+        <text class="small muted" y="0" filter="url(#textGlow)">
+          Currently: 🚀 Experimenting with AI Code Generation • 🔧 WordPress Plugin Development • 📊 JavaScript Data Filtering • ⚡ Performance Optimization
+        </text>
+        <animateTransform attributeName="transform" type="translate" 
+          from="1160 102" to="500 102" dur="16s" repeatCount="indefinite"/>
       </g>
     </g>
   </g>
 
-  <!-- Contact links -->
+  <!-- Enhanced Contact Links with Hover Effects -->
   <g transform="translate(76,320)" class="small">
     <a class="link" xlink:href="mailto:mail@fayaz.dev" target="_blank" rel="noopener noreferrer">
-      <text fill="#c9d1d9">✉ mail@fayaz.dev</text>
+      <text fill="#e2e8f0" filter="url(#textGlow)">
+        ✉️ mail@fayaz.dev
+        <animate attributeName="fill" values="#e2e8f0;#06ffa5;#e2e8f0" dur="5s" repeatCount="indefinite"/>
+      </text>
     </a>
     <a class="link" xlink:href="https://fayaz.dev/" target="_blank" rel="noopener noreferrer">
-      <text x="210" fill="#9ecbff">🌐 fayaz.dev</text>
+      <text x="210" fill="#3a86ff" filter="url(#textGlow)">
+        🌐 fayaz.dev
+        <animate attributeName="fill" values="#3a86ff;#06ffa5;#3a86ff" dur="6s" repeatCount="indefinite"/>
+      </text>
     </a>
     <a class="link" xlink:href="https://x.com/FayazDev" target="_blank" rel="noopener noreferrer">
-      <text x="470" fill="#8b949e">𝕏 @FayazDev</text>
+      <text x="400" fill="#ff006e" filter="url(#textGlow)">
+        𝕏 @FayazDev
+        <animate attributeName="fill" values="#ff006e;#ffbe0b;#ff006e" dur="4s" repeatCount="indefinite"/>
+      </text>
     </a>
   </g>
 
-  <!-- Bottom wave -->
-  <path d="M0,360 C200,330 300,380 500,360 C720,335 840,385 1200,360 L1200,400 L0,400 Z" fill="url(#waveGrad)">
-    <animate attributeName="d" dur="10s" repeatCount="indefinite"
+  <!-- Spectacular Multi-Layer Bottom Waves -->
+  <path d="M0,360 C200,330 300,380 500,360 C720,335 840,385 1200,360 L1200,400 L0,400 Z" 
+    fill="url(#waveGrad1)" opacity="0.6">
+    <animate attributeName="d" dur="12s" repeatCount="indefinite"
       values="M0,360 C200,330 300,380 500,360 C720,335 840,385 1200,360 L1200,400 L0,400 Z;
-              M0,360 C220,345 320,365 520,355 C700,330 860,390 1200,360 L1200,400 L0,400 Z;
+              M0,360 C250,345 350,370 550,355 C750,340 890,390 1200,360 L1200,400 L0,400 Z;
+              M0,360 C180,320 280,385 480,365 C700,330 820,380 1200,360 L1200,400 L0,400 Z;
               M0,360 C200,330 300,380 500,360 C720,335 840,385 1200,360 L1200,400 L0,400 Z"/>
   </path>
+  
+  <path d="M0,370 C150,350 250,390 450,370 C650,345 780,395 1200,370 L1200,400 L0,400 Z" 
+    fill="url(#waveGrad2)" opacity="0.4">
+    <animate attributeName="d" dur="15s" repeatCount="indefinite"
+      values="M0,370 C150,350 250,390 450,370 C650,345 780,395 1200,370 L1200,400 L0,400 Z;
+              M0,370 C200,365 300,375 500,365 C700,350 850,385 1200,370 L1200,400 L0,400 Z;
+              M0,370 C120,340 220,395 420,375 C620,340 760,390 1200,370 L1200,400 L0,400 Z;
+              M0,370 C150,350 250,390 450,370 C650,345 780,395 1200,370 L1200,400 L0,400 Z"/>
+  </path>
 
-  <!-- Footer note -->
-  <text x="1180" y="390" text-anchor="end" class="small muted">♾️ Perpetual learner • BSc. CSE </text>
+  <!-- Enhanced Footer with Glowing Text -->
+  <text x="1180" y="390" text-anchor="end" class="small muted" filter="url(#textGlow)">
+    ♾️ Perpetual learner • BSc. CSE • 🎯 Innovation driven
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="4s" repeatCount="indefinite"/>
+  </text>
+  
+  <!-- Subtle Corner Accent -->
+  <circle cx="1180" cy="20" r="2" fill="url(#particle1)" opacity="0.8">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="20" cy="380" r="1.5" fill="url(#particle2)" opacity="0.8">
+    <animate attributeName="opacity" values="0.3;0.9;0.3" dur="4s" repeatCount="indefinite"/>
+  </circle>
 </svg>

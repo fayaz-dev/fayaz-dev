@@ -67,7 +67,7 @@ Wish me luck! 🚀
 
 <a href="https://en.wikipedia.org/wiki/Computer_science_and_engineering">![CSE](https://img.shields.io/badge/CSE-BSc-blue?style=for-the-badge&logo=AirPlayVideo "CSE")</a>
 
-> Bachelor of Science (BSc) in Computer Science & Engineering: 2002-2006.
+> Bachelor of Science (BSc) in Computer Science & Engineering.
 
 ## :trophy: Dev Q&A Contributions:
 

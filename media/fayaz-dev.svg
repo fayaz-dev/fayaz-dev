@@ -258,6 +258,28 @@
       <stop offset="100%" stop-color="#f39c12" stop-opacity="0.7" />
     </linearGradient>
 
+    <linearGradient id="typescriptGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3178c6" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#235a97" stop-opacity="0.7" />
+    </linearGradient>
+
+    <linearGradient id="linuxGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fcc624" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#e6ac00" stop-opacity="0.7" />
+    </linearGradient>
+
+    <linearGradient id="neovimGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#57a143" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#458935" stop-opacity="0.7" />
+    </linearGradient>
+
+    <linearGradient id="mldlGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff6b6b" stop-opacity="0.9" />
+      <stop offset="33%" stop-color="#4ecdc4" stop-opacity="0.8" />
+      <stop offset="66%" stop-color="#45b7d1" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#f7b731" stop-opacity="0.8" />
+    </linearGradient>
+
     <!-- Tech tag glow filter -->
     <filter id="techGlow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
@@ -494,8 +516,8 @@
         </line>
         <g>
           <!-- Larger, more readable tag -->
-          <rect x="-70" y="-25" rx="25" ry="25" width="140" height="50" fill="url(#jsGrad)" opacity="0.95"/>
-          <text x="0" y="7" text-anchor="middle" font-size="16" fill="#000" style="font-weight:700">JavaScript</text>
+          <rect x="-85" y="-30" rx="25" ry="25" width="170" height="60" fill="url(#jsGrad)" opacity="0.95"/>
+          <text x="0" y="8" text-anchor="middle" font-size="20" fill="#000" style="font-weight:700">JavaScript</text>
           <!-- Smooth circular orbit using trigonometric functions -->
           <animateTransform attributeName="transform" type="translate" 
             values="240 0; 169.7 169.7; 0 240; -169.7 169.7; -240 0; -169.7 -169.7; 0 -240; 169.7 -169.7; 240 0"
@@ -515,8 +537,8 @@
         </line>
         <g>
           <!-- Larger React tag -->
-          <rect x="-55" y="-25" rx="25" ry="25" width="110" height="50" fill="url(#reactGrad)" opacity="0.95"/>
-          <text x="0" y="7" text-anchor="middle" font-size="16" fill="#000" style="font-weight:700">React</text>
+          <rect x="-65" y="-30" rx="25" ry="25" width="130" height="60" fill="url(#reactGrad)" opacity="0.95"/>
+          <text x="0" y="8" text-anchor="middle" font-size="20" fill="#000" style="font-weight:700">React</text>
           <!-- Smooth circular orbit offset by 45 degrees -->
           <animateTransform attributeName="transform" type="translate" 
             values="169.7 169.7; 0 240; -169.7 169.7; -240 0; -169.7 -169.7; 0 -240; 169.7 -169.7; 240 0; 169.7 169.7"
@@ -536,8 +558,8 @@
         </line>
         <g>
           <!-- Larger Python tag -->
-          <rect x="-60" y="-25" rx="25" ry="25" width="120" height="50" fill="url(#pythonGrad)" opacity="0.95"/>
-          <text x="0" y="7" text-anchor="middle" font-size="16" fill="#fff" style="font-weight:700">Python</text>
+          <rect x="-70" y="-30" rx="25" ry="25" width="140" height="60" fill="url(#pythonGrad)" opacity="0.95"/>
+          <text x="0" y="8" text-anchor="middle" font-size="20" fill="#fff" style="font-weight:700">Python</text>
           <!-- Smooth elliptical orbit (larger radius) -->
           <animateTransform attributeName="transform" type="translate" 
             values="0 -300; 254.6 -212.1; 360 0; 254.6 212.1; 0 300; -254.6 212.1; -360 0; -254.6 -212.1; 0 -300"
@@ -557,8 +579,8 @@
         </line>
         <g>
           <!-- Larger Node.js tag -->
-          <rect x="-65" y="-25" rx="25" ry="25" width="130" height="50" fill="url(#nodeGrad)" opacity="0.95"/>
-          <text x="0" y="7" text-anchor="middle" font-size="16" fill="#fff" style="font-weight:700">Node.js</text>
+          <rect x="-75" y="-30" rx="25" ry="25" width="150" height="60" fill="url(#nodeGrad)" opacity="0.95"/>
+          <text x="0" y="8" text-anchor="middle" font-size="20" fill="#fff" style="font-weight:700">Node.js</text>
           <!-- Smooth diagonal elliptical orbit -->
           <animateTransform attributeName="transform" type="translate" 
             values="-212.1 -212.1; -300 0; -212.1 212.1; 0 300; 212.1 212.1; 300 0; 212.1 -212.1; 0 -300; -212.1 -212.1"
@@ -578,8 +600,8 @@
         </line>
         <g>
           <!-- Larger PHP tag -->
-          <rect x="-50" y="-22.5" rx="25" ry="25" width="100" height="45" fill="url(#phpGrad)" opacity="0.8"/>
-          <text x="0" y="3.5" text-anchor="middle" font-size="15" fill="#fff" style="font-weight:700">PHP</text>
+          <rect x="-55" y="-27" rx="25" ry="25" width="110" height="54" fill="url(#phpGrad)" opacity="0.8"/>
+          <text x="0" y="6" text-anchor="middle" font-size="18" fill="#fff" style="font-weight:700">PHP</text>
           <!-- Smooth horizontal elliptical orbit -->
           <animateTransform attributeName="transform" type="translate" 
             values="0 0; -180 55.4; -254.6 0; -180 -55.4; 0 0; 180 55.4; 254.6 0; 180 -55.4; 0 0"
@@ -599,8 +621,8 @@
         </line>
         <g>
           <!-- Larger WordPress tag -->
-          <rect x="-75" y="-22.5" rx="25" ry="25" width="150" height="45" fill="url(#wpGrad)" opacity="0.8"/>
-          <text x="0" y="5.5" text-anchor="middle" font-size="18" fill="#fff" style="font-weight:700">WordPress</text>
+          <rect x="-85" y="-27" rx="25" ry="25" width="170" height="54" fill="url(#wpGrad)" opacity="0.8"/>
+          <text x="0" y="8" text-anchor="middle" font-size="20" fill="#fff" style="font-weight:700">WordPress</text>
           <!-- Smooth lower elliptical orbit -->
           <animateTransform attributeName="transform" type="translate" 
             values="127.3 127.3; 84.9 127.3; 0 141.4; -84.9 127.3; -127.3 127.3; -84.9 127.3; 0 141.4; 84.9 127.3; 127.3 127.3"
@@ -620,8 +642,8 @@
         </line>
         <g>
           <!-- Larger AI tag -->
-          <rect x="-40" y="-22.5" rx="30" ry="30" width="80" height="45" fill="url(#aiGrad)" opacity="0.95"/>
-          <text x="0" y="5.5" text-anchor="middle" font-size="16" fill="#fff" style="font-weight:700">AI</text>
+          <rect x="-45" y="-27" rx="30" ry="30" width="90" height="54" fill="url(#aiGrad)" opacity="0.95"/>
+          <text x="0" y="8" text-anchor="middle" font-size="20" fill="#fff" style="font-weight:700">AI</text>
           <!-- Smooth octagonal orbit -->
           <animateTransform attributeName="transform" type="translate" 
             values="0 -180; 127.3 -127.3; 180 0; 127.3 127.3; 0 180; -127.3 127.3; -180 0; -127.3 -127.3; 0 -180"
@@ -641,8 +663,8 @@
         </line>
         <g>
           <!-- Larger CSS tag -->
-          <rect x="-45" y="-20" rx="20" ry="20" width="90" height="40" fill="#1572b6" opacity="0.85"/>
-          <text x="0" y="6" text-anchor="middle" font-size="14" fill="#fff" style="font-weight:700">CSS</text>
+          <rect x="-50" y="-25" rx="20" ry="20" width="100" height="50" fill="#1572b6" opacity="0.85"/>
+          <text x="0" y="8" text-anchor="middle" font-size="18" fill="#fff" style="font-weight:700">CSS</text>
           <!-- Large circular orbit -->
           <animateTransform attributeName="transform" type="translate" 
             values="318 0; 224.8 224.8; 0 318; -224.8 224.8; -318 0; -224.8 -224.8; 0 -318; 224.8 -224.8; 318 0"
@@ -650,6 +672,111 @@
           <!-- Outer layer scaling -->
           <animateTransform attributeName="transform" type="scale" additive="sum"
             values="0.8; 0.9; 1.1; 0.9; 0.8; 0.9; 1.1; 0.9; 0.8" dur="30s" repeatCount="indefinite" />
+        </g>
+      </g>
+
+      <!-- TypeScript - Layer 2 (Mid-Right) with vertical elliptical orbit -->
+      <g filter="url(#techGlow)">
+        <!-- Dynamic connection line -->
+        <line x1="0" y1="0" stroke="url(#connectionGrad)" stroke-width="3" opacity="0.6">
+          <animate attributeName="x2" values="212.1;300;212.1;0;-212.1;-300;-212.1;0;212.1" dur="32s" repeatCount="indefinite" />
+          <animate attributeName="y2" values="-212.1;0;212.1;300;212.1;0;-212.1;-300;-212.1" dur="32s" repeatCount="indefinite" />
+        </line>
+        <g>
+          <!-- TypeScript tag -->
+          <rect x="-80" y="-30" rx="25" ry="25" width="160" height="60" fill="url(#typescriptGrad)" opacity="0.95"/>
+          <text x="0" y="8" text-anchor="middle" font-size="20" fill="#fff" style="font-weight:700">TypeScript</text>
+          <!-- Smooth vertical elliptical orbit -->
+          <animateTransform attributeName="transform" type="translate" 
+            values="212.1 -212.1; 300 0; 212.1 212.1; 0 300; -212.1 212.1; -300 0; -212.1 -212.1; 0 -300; 212.1 -212.1"
+            dur="32s" repeatCount="indefinite" />
+          <!-- 3D depth scaling -->
+          <animateTransform attributeName="transform" type="scale" additive="sum"
+            values="1.0; 1.2; 1.0; 0.8; 1.0; 1.2; 1.0; 0.8; 1.0" dur="32s" repeatCount="indefinite" />
+        </g>
+      </g>
+
+      <!-- Linux - Layer 3 (Back-Left) with figure-8 orbit -->
+      <g filter="url(#techGlow)">
+        <!-- Dynamic connection line -->
+        <line x1="0" y1="0" stroke="url(#connectionGrad)" stroke-width="2" opacity="0.5">
+          <animate attributeName="x2" values="-200;-141.4;0;141.4;200;141.4;0;-141.4;-200" dur="25s" repeatCount="indefinite" />
+          <animate attributeName="y2" values="0;-141.4;-200;-141.4;0;141.4;200;141.4;0" dur="25s" repeatCount="indefinite" />
+        </line>
+        <g>
+          <!-- Linux tag -->
+          <rect x="-60" y="-27" rx="25" ry="25" width="120" height="54" fill="url(#linuxGrad)" opacity="0.85"/>
+          <text x="0" y="8" text-anchor="middle" font-size="18" fill="#000" style="font-weight:700">Linux</text>
+          <!-- Figure-8 orbit -->
+          <animateTransform attributeName="transform" type="translate" 
+            values="-200 0; -141.4 -141.4; 0 -200; 141.4 -141.4; 200 0; 141.4 141.4; 0 200; -141.4 141.4; -200 0"
+            dur="25s" repeatCount="indefinite" />
+          <!-- Back layer scaling -->
+          <animateTransform attributeName="transform" type="scale" additive="sum"
+            values="0.7; 0.6; 0.5; 0.6; 0.7; 0.6; 0.5; 0.6; 0.7" dur="25s" repeatCount="indefinite" />
+        </g>
+      </g>
+
+      <!-- VSCode - Layer 1 (Front-Left) with diamond orbit -->
+      <g filter="url(#techGlow)">
+        <!-- Dynamic connection line -->
+        <line x1="0" y1="0" stroke="url(#connectionGrad)" stroke-width="3" opacity="0.7">
+          <animate attributeName="x2" values="-190;0;190;0;-190" dur="20s" repeatCount="indefinite" />
+          <animate attributeName="y2" values="0;-190;0;190;0" dur="20s" repeatCount="indefinite" />
+        </line>
+        <g>
+          <!-- VSCode tag -->
+          <rect x="-70" y="-30" rx="25" ry="25" width="140" height="60" fill="url(#vscodeGrad)" opacity="0.95"/>
+          <text x="0" y="8" text-anchor="middle" font-size="20" fill="#fff" style="font-weight:700">VSCode</text>
+          <!-- Diamond orbit -->
+          <animateTransform attributeName="transform" type="translate" 
+            values="-190 0; 0 -190; 190 0; 0 190; -190 0"
+            dur="20s" repeatCount="indefinite" />
+          <!-- Front layer scaling -->
+          <animateTransform attributeName="transform" type="scale" additive="sum"
+            values="1.3; 1.1; 1.3; 1.1; 1.3" dur="20s" repeatCount="indefinite" />
+        </g>
+      </g>
+
+      <!-- NeoVim - Layer 2 (Mid) with pentagonal orbit -->
+      <g filter="url(#techGlow)">
+        <!-- Dynamic connection line -->
+        <line x1="0" y1="0" stroke="url(#connectionGrad)" stroke-width="2.5" opacity="0.6">
+          <animate attributeName="x2" values="0;181.6;112.3;-112.3;-181.6;0" dur="24s" repeatCount="indefinite" />
+          <animate attributeName="y2" values="-190;-58.8;153.9;153.9;-58.8;-190" dur="24s" repeatCount="indefinite" />
+        </line>
+        <g>
+          <!-- NeoVim tag -->
+          <rect x="-70" y="-30" rx="25" ry="25" width="140" height="60" fill="url(#neovimGrad)" opacity="0.95"/>
+          <text x="0" y="8" text-anchor="middle" font-size="20" fill="#fff" style="font-weight:700">NeoVim</text>
+          <!-- Pentagonal orbit -->
+          <animateTransform attributeName="transform" type="translate" 
+            values="0 -190; 181.6 -58.8; 112.3 153.9; -112.3 153.9; -181.6 -58.8; 0 -190"
+            dur="24s" repeatCount="indefinite" />
+          <!-- Mid layer scaling -->
+          <animateTransform attributeName="transform" type="scale" additive="sum"
+            values="1.0; 1.2; 1.0; 0.9; 1.1; 1.0" dur="24s" repeatCount="indefinite" />
+        </g>
+      </g>
+
+      <!-- ML/DL - Layer 1 (Front) with star orbit -->
+      <g filter="url(#techGlow)">
+        <!-- Dynamic connection line -->
+        <line x1="0" y1="0" stroke="url(#connectionGrad)" stroke-width="3" opacity="0.7">
+          <animate attributeName="x2" values="0;95.1;154.4;59.4;-59.4;-154.4;-95.1;0" dur="28s" repeatCount="indefinite" />
+          <animate attributeName="y2" values="-160;-49.4;49.4;129.4;129.4;49.4;-49.4;-160" dur="28s" repeatCount="indefinite" />
+        </line>
+        <g>
+          <!-- ML/DL tag -->
+          <rect x="-65" y="-30" rx="30" ry="30" width="130" height="60" fill="url(#mldlGrad)" opacity="0.95"/>
+          <text x="0" y="8" text-anchor="middle" font-size="20" fill="#fff" style="font-weight:700">ML/DL</text>
+          <!-- Star-shaped orbit -->
+          <animateTransform attributeName="transform" type="translate" 
+            values="0 -160; 95.1 -49.4; 154.4 49.4; 59.4 129.4; -59.4 129.4; -154.4 49.4; -95.1 -49.4; 0 -160"
+            dur="28s" repeatCount="indefinite" />
+          <!-- Dynamic scaling with emphasis -->
+          <animateTransform attributeName="transform" type="scale" additive="sum"
+            values="1.2; 1.4; 1.1; 1.3; 1.0; 1.3; 1.1; 1.2" dur="28s" repeatCount="indefinite" />
         </g>
       </g>
 

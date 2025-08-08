@@ -187,7 +187,9 @@
 
     <!-- Headline -->
     <g transform="translate(58, 200)">
-      <text x="0" y="0" font-family="Inter, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, sans-serif" font-size="84" style="font-weight:800;" fill="#f8fafc">Developer. Thinker. Problem Solver.</text>
+      <text x="0" y="0" font-family="Inter, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, sans-serif" font-size="84" style="font-weight:800;" fill="#f8fafc">Developer.</text>
+      <text x="450" y="0" font-family="Inter, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, sans-serif" font-size="84" style="font-weight:800;" fill="#3c74ecff">Thinker.</text>
+      <text x="800" y="0" font-family="Inter, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, sans-serif" font-size="84" style="font-weight:800;" fill="#1ea551ff">Problem Solver.</text>
       <rect x="0" y="30" width="832" height="10" rx="5" fill="url(#accent)" opacity="0.65">
         <animate attributeName="width" values="224;832;224" dur="7s" repeatCount="indefinite" />
       </rect>

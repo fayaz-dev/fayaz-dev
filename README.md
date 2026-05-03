@@ -64,9 +64,9 @@ Wish me luck! 🚀
 
 ## :mailbox_with_mail: Contact me:
 
-| Email | Contact Form | PM on Social Media |
-| ----- | ------------ | ------------------ |
-| ![Email me at mail%40fayaz.dev](https://img.shields.io/badge/email-mail%40fayaz.dev-ea4335?style=for-the-badge&logo=gmail "Email me") | <a href="https://www.fayaz.dev/contact">![Contact me at Fayaz.Dev](https://img.shields.io/badge/https:%2F%2F-Fayaz.Dev-blue?style=for-the-badge&logo=FirefoxBrowser "Contact me at Fayaz.Dev")</a> | <a href="https://x.com/FayazDev">![X / Twitter inbox me @FayazDev](https://img.shields.io/badge/Twitter-@FayazDev-blue?style=for-the-badge&logo=twitter "X / Twitter inbox me @FayazDev")</a> |
+| Email | Contact Form |
+| ----- | ------------ |
+| ![Email me at mail%40fayaz.dev](https://img.shields.io/badge/email-mail%40fayaz.dev-ea4335?style=for-the-badge&logo=gmail "Email me") | <a href="https://www.fayaz.dev/contact">![Contact me at Fayaz.Dev](https://img.shields.io/badge/https:%2F%2F-Fayaz.Dev-blue?style=for-the-badge&logo=FirefoxBrowser "Contact me at Fayaz.Dev")</a> |
 
 <!--
 <a href="https://twitter.com/FayazDev"><img width="20" src="media/twitter.svg"/> @FayazDev</a>

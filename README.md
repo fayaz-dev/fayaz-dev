@@ -3,8 +3,6 @@
 ## :hammer_and_wrench: I’m currently working on:
 
 - [ ] 🔭 Experimenting with automating Software Engineering.
-- [ ] Developing an interesting WordPress Plugin (pushed to later).
-- [ ] Developing a JavaScript library for data filtering (pushed to later).
 
 ## ✅ Recent Posts & Projects:
 

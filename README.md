@@ -15,6 +15,8 @@
 
 ✅ 🏆✨ Won the [Google Cloud NEXT '26 Writing Challenge](https://dev.to/devteam/congrats-to-the-google-cloud-next-26-writing-challenge-winners-5990) with my post [The 2026 Agentic Era with Gemini Agent Platform: Surviving Cascading Failures and Runaway Cloud Bills](https://dev.to/fm/the-2026-agentic-era-with-gemini-agent-platform-surviving-cascading-failures-and-runaway-cloud-1gbk).
 
+![Winning Post of Google Cloud NEXT 2026 Challenge](https://github.com/user-attachments/assets/ecb49b10-ebc1-4e79-afd8-edb2200f8a05)
+
 ✅ 🏆✨ Won the [Alibaba Cloud Game Development Hackathon on Dev.to](https://dev.to/devteam/congrats-to-the-alibaba-cloud-web-game-challenge-winners-2a3m) with my Game [Robonaut's Quest to Black Hole](https://dev.to/fm/robonauts-quest-on-alibaba-cloud-497l).
 
 ![Winning Post of Robonaut's Quest to Black Hole](https://github.com/user-attachments/assets/f9d82466-a245-44f9-ac71-ad65f923092c)

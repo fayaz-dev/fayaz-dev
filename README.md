@@ -6,11 +6,14 @@
 
 ## ✅ Recent Posts & Projects:
 
-1. [Use Algolia MCP Server & VSCode GitHub Copilot to Find and Submit Unique Projects in Dev Challenges! ❤️‍🔥](https://dev.to/fm/use-algolia-mcp-server-vscode-github-copilot-to-submit-unique-projects-in-dev-challenges-3ph1).
-2. [State of AI in development (as of February, 2025)](https://dev.to/fm/rant-state-of-generative-ai-in-code-generation-1hej).
-3. [Where I see AI with respect to Software development by the end of 2025](https://dev.to/fm/predicting-2025-a-brave-new-world-4iip).
+1. [The 2026 Agentic Era with Gemini Agent Platform: Surviving Cascading Failures and Runaway Cloud Bills](https://dev.to/fm/the-2026-agentic-era-with-gemini-agent-platform-surviving-cascading-failures-and-runaway-cloud-1gbk).
+2. [Use Algolia MCP Server & VSCode GitHub Copilot to Find and Submit Unique Projects in Dev Challenges! ❤️‍🔥](https://dev.to/fm/use-algolia-mcp-server-vscode-github-copilot-to-submit-unique-projects-in-dev-challenges-3ph1).
+3. [State of AI in development (as of February, 2025)](https://dev.to/fm/rant-state-of-generative-ai-in-code-generation-1hej).
+4. [Where I see AI with respect to Software development by the end of 2025](https://dev.to/fm/predicting-2025-a-brave-new-world-4iip).
 
 ## Recent Wins:
+
+✅ 🏆✨ Won the [Google Cloud NEXT '26 Writing Challenge](https://dev.to/devteam/congrats-to-the-google-cloud-next-26-writing-challenge-winners-5990) with my post [The 2026 Agentic Era with Gemini Agent Platform: Surviving Cascading Failures and Runaway Cloud Bills](https://dev.to/fm/the-2026-agentic-era-with-gemini-agent-platform-surviving-cascading-failures-and-runaway-cloud-1gbk).
 
 ✅ 🏆✨ Won the [Alibaba Cloud Game Development Hackathon on Dev.to](https://dev.to/devteam/congrats-to-the-alibaba-cloud-web-game-challenge-winners-2a3m) with my Game [Robonaut's Quest to Black Hole](https://dev.to/fm/robonauts-quest-on-alibaba-cloud-497l).
 
